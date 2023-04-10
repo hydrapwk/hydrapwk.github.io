@@ -3,11 +3,17 @@
 <head>
 	<meta charset="UTF-8"></meta>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
-	<title>BlackTrack | github page</title>
+	<title>Top Navbar Fixed</title>
 	<link href="style.css" rel="stylesheet"></link>
 	<link href="https://fonts.gstatic.com" rel="preconnect"></link>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&amp;display=swap" rel="stylesheet"></link>
+		<link href="https://fonts.cdnfonts.com/css/universal-serif" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/outfit" rel="stylesheet">
 </head>
+<style>
+                            @import url('https://fonts.cdnfonts.com/css/universal-serif');
+                            @import url('https://fonts.cdnfonts.com/css/outfit');
+</style>
 <style type="text/css">
 
 * {
@@ -212,6 +218,276 @@ body {
 
 }
 
+.explanation {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  margin-top: 20px;
+  margin-bottom: 0%;
+  font-weight: inherit;
+  font-size: medium;
+}
+
+.changelog_font {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: left;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: inherit;
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+ 
+.malasngoding-slider { 
+	border: 10px solid #efefef; 
+	position: relative; 
+	overflow: hidden; 
+	background: #efefef;
+}
+ 
+.malasngoding-slider { 
+	margin:20px auto;
+	width: 768px;
+	height: 450px; 
+}
+ 
+.isi-slider img { 
+	width: 768px;
+	height: 450px; 
+	float: left;
+}
+ 
+.isi-slider { 
+	position: absolute; 
+	width:3900px;  
+ 
+	/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+	animation-name:slider;
+	animation-duration:16s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	-webkit-animation-name:slider;
+	-webkit-animation-duration:16s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-name:slider;
+	-moz-animation-duration:16s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count:infinite;
+	-o-animation-name:slider;
+	-o-animation-duration:16s;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count:infinite;
+}
+ 
+ 
+/*saat gambar di hover oleh cursor mouse maka berhenti slide*/
+.isi-slider:hover { 
+	-webkit-animation-play-state:paused; 
+	-moz-animation-play-state:paused; 
+	-o-animation-play-state:paused; 
+	animation-play-state:paused; }
+}
+ 
+.isi-slider img { 
+	float: right; 
+}
+ 
+.malasngoding-slider:after { 
+	font-size: 150px; 
+	position: absolute; 
+	z-index: 12; 
+	color: rgba(255,255,255, 0); 
+	left: 300px; top: 80px; 
+	-webkit-transition: 1s all ease-in-out; 
+	-moz-transition: 1s all ease-in-out; 
+	transition: 1s all ease-in-out; 
+}
+ 
+.malasngoding-slider:hover:after { 
+	color: rgba(255,255,255, 0.6);  
+}
+ 
+ 
+ 
+@-moz-keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}       
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0;
+	}   	
+	100% {
+		left: 0; opacity: 0; 
+	}
+} 
+ 
+@-webkit-keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}       
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0;
+	}   	
+	100% {
+		left: 0; opacity: 0; 
+	}
+} 
+ 
+ 
+@keyframes slider {     
+	0% {
+		left: 0; opacity: 0; 
+	}     
+	2% {
+		opacity: 1; 
+	}     
+	20% {
+		left: 0; opacity: 1; 
+	}     
+	21% {
+		opacity: 0; 
+	}     
+	24% {
+		opacity: 0; 
+	}     
+	25% {
+		left: -768px; opacity: 1; 
+	}     
+	45% {
+		left: -768px; opacity: 1; 
+	}     
+	46% {
+		opacity: 0; 
+	}     
+	48% {
+		opacity: 0; 
+	}     
+	50% {
+		left: -1536px; opacity: 1; 
+	}     
+	70% {
+		left: -1536px; opacity: 1; 
+	}     
+	72% {
+		opacity: 0; 
+	}     
+	74% {
+		opacity: 0; 
+	}    
+	75% {
+		left: -2304px; opacity: 1; 
+	}   	
+	95% {
+		left: -2304px; opacity: 1; 
+	}   	
+	97% { 
+		left: -2304px; opacity: 0; 
+	} 
+ 
+	100% {
+		left: 0; opacity: 0; 
+	}
+}
 </style>
 <body>
 	<nav class="nav">
@@ -238,5 +514,23 @@ body {
 		
 	</nav>
 	<script src="main.js"></script>
+	<br>
+	<br>
+	<br>
+		<h1 class="explanation"><b>Off to a great start with using BlackTrack.</b><br>BlackTrack is a distro free for penetration focused at network like ,wireless,Router and etc.<br>BlackTrack is built on Debian based </h1>
+	<img src="blacktrack_portable.png" alt="BlackTrack_laptop" width="100px" />
+	<br>
+	<br>
+	<h1 class="explanation">Now new release available! (v2.0b Selarong).</h1>
+	<div class=malasngoding-slider>
+		<div class=isi-slider>
+			<img src="blacktrack_ss/metasploit.png" alt="Metasploit-BlackTrack">
+			<img src="blacktrack_ss/aircrack-ng.png" alt="Gambar 2">
+			<img src="blacktrack_ss/rsf.png" alt="Gambar 3">
+						<img src="blacktrack_ss/wireshark.png" alt="wireshark">
+			<img src="blacktrack_ss/aircrack-ng.png" alt="Gambar 2">
+			<img src="blacktrack_ss/rsf.png" alt="Gambar 3">
+		</div>
+	</div>
 </body>
 </html>
