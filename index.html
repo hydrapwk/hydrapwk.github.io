@@ -1,0 +1,564 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8"></meta>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
+	<title>BlackTrack Github Pages</title>
+	<link href="style.css" rel="stylesheet"></link>
+	<link href="https://fonts.gstatic.com" rel="preconnect"></link>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&amp;display=swap" rel="stylesheet"></link>
+		<link href="https://fonts.cdnfonts.com/css/universal-serif" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/outfit" rel="stylesheet">
+</head>
+<style>
+                            @import url('https://fonts.cdnfonts.com/css/universal-serif');
+                            @import url('https://fonts.cdnfonts.com/css/outfit');
+</style>
+<style type="text/css">
+
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  quotes: none;
+  text-decoration: unset;
+  outline: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*=============================== ===========================*/
+  
+ /*Catatan : Atur height pada body menjadi 100%*/
+
+ /*Karena ini hanya contoh agar effect navbar scrollnya bisa terlihat*/
+
+/*=============================== ===========================*/
+
+body {
+  height: 4000px;
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  background-color: #fdfdfd;
+}
+
+.nav {
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: white;
+  transition: .3s;
+}
+
+.nav.active {
+          box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.nav.hide {
+   top: -200px !important;
+}
+
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: white;
+  padding: 20px 0;
+
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+.brand span {
+  color: black
+}
+
+.brand img {
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.nav-burger {
+  width: 30px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  visibility: hidden;
+  margin-top: 10px;
+}
+
+.nav-menu a {
+  padding: 10px 0;
+  width: 100%;
+  margin: 5px 0;
+  color: black;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.nav-menu a:nth-child(6) {
+  font-weight: bold;
+}
+
+
+.nav-menu.active {
+  max-height: 200rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-menu-dekstop {
+  display: none;
+}
+
+@media screen and (min-width: 968px) {
+    .nav-burger {
+      display: none;
+    }
+
+    .nav-menu {
+      width: inherit;
+      display: flex;
+      flex-direction: row;
+      max-height: inherit;
+      opacity: inherit;
+      -webkit-transition: inherit;
+      -o-transition: inherit;
+      transition: inherit;
+      visibility: inherit;
+      margin-top: inherit;
+      /*background-color: */
+    }
+
+    .nav-menu a {
+      padding: 10px 10px;
+      margin: 0 10px;
+      width: inherit;
+      /*margin: 5px 0;*/
+      cursor: pointer;
+      display: inherit;
+      position: inherit;
+      display: flex;
+      position: relative;
+    }
+
+    /* Jika ingin menu di dekstop ada 3 */
+    .nav-menu a:nth-child(5),
+    .nav-menu a:nth-child(6) {
+      display: none;
+    }
+
+    /*Jika ingin menu di dekstop ada sign up dan login, beri komentar script
+      .nav-menu a:nth-child(5),
+      .nav-menu a:nth-child(6) {
+          display: none;
+      }
+    */
+
+    .nav-menu-dekstop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-menu-dekstop a {
+      padding: 5px 15px;
+      width: inherit;
+      margin: 0 5px;
+      /*margin: 5px 0;*/
+      cursor: pointer;
+      display: inherit;
+      position: inherit;
+      display: flex;
+      position: relative;
+      color: black;
+    }
+
+    .nav-menu-dekstop a:nth-child(2) {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+
+
+}
+
+.explanation {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  margin-top: 20px;
+  margin-bottom: 0%;
+  font-weight: inherit;
+  font-size: medium;
+}
+
+.changelog_font {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: left;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: inherit;
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+ 
+
+hr {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+      }
+      
+      
+      @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+html{
+	background-color: #eaf0f2;
+}
+
+body{
+	font:16px/1.6 Arial,  sans-serif;
+}
+
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:190px;
+}
+
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+
+header h2{
+	color: #F05283;
+}
+
+header span{
+	color: #3F71EA;
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+</style>
+<body>
+	<nav class="nav">
+		<div class="nav-area">
+			<a class="brand" href="">
+				<!-- Text -->
+				<span>BlackTrack</span>
+
+				<!-- IMG -->
+				<!-- <img src="" alt=""> -->
+			</a>
+
+			<svg class="nav-burger" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+
+			<div class="nav-menu">
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+				<a href="#">Support</a>
+				<a href="/download.html">Download</a>
+
+			<!-- Jika ingin 2 menu, atur script css nya pada mode dekstop ukuran 968px 
+				 agar displaynya menjadi block dengan memberi komentar css .nav-menu-dekstop -->
+		</div>
+		
+	</nav>
+	<script src="main.js"></script>
+	<br>
+	<br>
+	<br>
+		<h1 class="explanation"><b>Off to a great start with using BlackTrack.</b><br>BlackTrack is a distro free for penetration focused at network like ,wireless,Router and etc.<br>BlackTrack is built on Debian based </h1>
+	<img src="blacktrack_portable.png" alt="BlackTrack_laptop" width="100px" style="margin-bottom:90px;"/>
+	<br>
+	<br>
+	<br>
+	<hr size="3px" color="black">
+	<img src="lightweight.png" style="width:40vw;" align="center" margin-top="0px"/>
+	<p style="margin-left:22px;"><b>Light</b></p><p style="margin-left:22px; font-size:15px;">BlackTrack is designed to be lightweight, so it can run on minimal hardware!.<br><i>Notes:</i>for hardware requirements please check on installation page or BlackTrack installation guide book,<br> for it u can check on Download pages.</p>
+	<br>
+	<img src="fast.png" style="width:40vw;" align="center" alt="fasticon"/>
+	<p style="margin-left:22px;"><b>Fast</b></p><p style="margin-left:22px; font-size:15px;">BlackTrack is designed for fast use (ready to use Note: for boot speed or other, depending on hardware, please check hardware requirements on Download page.),<br>
+	<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="github-mark-white.png">
+				<p class="footer-links">
+					<a href="https://blacktrack-debian.github.io">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2023 Alright reserved</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+00 00 00 00</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="https://blacktrack-debian.github.io">blacktrack@blacktrack.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
