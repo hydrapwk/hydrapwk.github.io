@@ -41,7 +41,7 @@ html {
 
  /*Karena ini hanya contoh agar effect navbar scrollnya bisa terlihat*/
 
-/*=============================== ===========================*/
+/*============================== ===========================*/
 
 body {
   height: 4000px;
