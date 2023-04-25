@@ -380,6 +380,7 @@ color: white;
 font-size: small;
 font-weight: inherit;
 margin-bottom: 5px;
+display: flex;
 }
 
 .font_box {
@@ -398,10 +399,15 @@ margin-bottom: 5px;
   color: black;
   text-align: center;
   font-weight: inherit;
-  font-size: small;
+  font-size: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: center;
+  text-align: left;
+  margin-right: 90px;
+}
+
+div {
+  text-align: left;
 }
 
 </style>
@@ -421,7 +427,7 @@ margin-bottom: 5px;
 			<div class="nav-menu">
 				<a href="#">About</a>
 				<a href="#">Contact</a>
-				<a href="https://t.me/blacktrack_distro">Support</a>
+				<a href="#">Support</a>
 				<a href="/download.html">Download</a>
 
 			<!-- Jika ingin 2 menu, atur script css nya pada mode dekstop ukuran 968px 
@@ -450,13 +456,13 @@ BlackTrack is designed to be lightweight, so it can run on minimal hardware!.<br
 for it u can check on Download pages.
 	  </h1>
 	</div>
-	<div class="box4">
-	  <h1 class="font_box1">
-	    <b>Fast</b>
-BlackTrack is designed for fast use (ready to use <br><b>Note</b>: for boot speed or other, depending on hardware<br>please check hardware requirements on Download page.)
-	  </h1><img src="blacktrack_portable.png" style="width: 150px;"/>
-	</div>
 	</center>
+	<div class="box4">
+	  <h1 class="font_box1" ><div>
+	    <b>Fast</b>
+BlackTrack is designed for fast use (ready to use <br><b>Note</b>: for boot speed or other, depending on hardware<br>please check hardware requirements on Download page.)</div>
+	  </h1><div><img src="blacktrack_portable.png" style="width: 150px;"/></div>
+	</div>
 	<br>
 </body>
 </html>
