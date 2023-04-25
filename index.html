@@ -224,7 +224,7 @@ body {
   text-align: center;
   padding-block-start: 15px;
   padding-block-end: 15px;
-  margin-top: 20px;
+  margin-top: 1.5em;
   margin-bottom: 0%;
   font-weight: inherit;
   font-size: large;
@@ -273,8 +273,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 3.5em;
   width: 80%;
   border-radius: 8px;
+  display: flex;
 }
 
  
@@ -359,28 +362,43 @@ border-radius: 10px;
 .box3 {
 width:250px auto;
 height:250px auto;
-background: #2a1f1f;
+background: hsl(0, 19%, 15%);
 border-radius: 0px;
 text-align: center;
 font-family: 'Outfit', sans-serif;
 color: white;
 font-size: small;
 font-weight: inherit;
-margin-top: 5px;
+padding-top: 3.5em;
+padding-bottom: 3.5em;
 }
 
 .box4 {
-width:250px auto;
-height:250px auto;
+width: auto;
+height: auto;
 background: white;
-border-radius: 0px;
 text-align: center;
 font-family: 'Outfit', sans-serif;
 color: white;
 font-size: small;
 font-weight: inherit;
-margin-bottom: 5px;
-display: flex;
+margin-top: 3.5em;
+padding-top: 3.5em;
+padding-bottom: 3.5em;
+}
+
+.box5 {
+width: auto;
+height: auto;
+color: red;
+text-align: center;
+font-family: 'Outfit', sans-serif;
+color: white;
+font-size: small;
+font-weight: inherit;
+margin-top: 3.5em;
+padding-top: 3.5em;
+padding-bottom: 3.5em;
 }
 
 .font_box {
@@ -399,15 +417,41 @@ display: flex;
   color: black;
   text-align: center;
   font-weight: inherit;
-  font-size: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-  margin-right: 90px;
+  font-size: 1.5rem;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-top: auto;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
+
+
+.font_box3 {
+  font-family: 'Outfit', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: inherit;
+  font-size: 1.5rem;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-top: auto;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 
 div {
   text-align: left;
+}
+
+.block {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
 }
 
 </style>
@@ -416,7 +460,7 @@ div {
 		<div class="nav-area">
 			<a class="brand" href="#">
 				<!-- Text -->
-				<span>BlackTrack</span>
+				<span><img src="blacktrack-logo.png" style="margin-bottom: 0%;" /></span>
 
 				<!-- IMG -->
 				<!-- <img src="" alt=""> -->
@@ -429,9 +473,8 @@ div {
 				<a href="#">Contact</a>
 				<a href="#">Support</a>
 				<a href="/download.html">Download</a>
+        <a href="/team.html">Team</a>
 
-			<!-- Jika ingin 2 menu, atur script css nya pada mode dekstop ukuran 968px 
-				 agar displaynya menjadi block dengan memberi komentar css .nav-menu-dekstop -->
 		</div>
 		
 	</nav>
@@ -439,30 +482,21 @@ div {
 	<br>
 	<br>
 	<br>
-		<h1 class="explanation"><b>Off to a great start with using BlackTrack <br>Network Cyber Security Distro</b></h1><br><h1 class="explanation2">BlackTrack is a distro free for penetration focused at network like ,wireless,Router and etc.<br>BlackTrack is built on Debian based </h1>
-	<img src="blacktrack-logo.png" alt="BlackTrack_laptop"/>
+		<h1 class="explanation"><b>Off to a great start with using BlackTrack <br>Network Cyber Security Distro</b></h1><br><h1 class="explanation2">BlackTrack is a distro free for penetration focused at network like ,wireless,Router and etc.<br>BlackTrack is built on Debian based </h1><br>
+	<img src="blacktrack-logo.svg" alt="blacktrack_logo" />
 	<br>
-	<center>
-<div class="box1"><h1 class="title_font">New release available v2.0b(Selarong)</h1><br>
-	  <img src="banner_selarong.jpg" width="100px" /><br><h1 class="explanation3"><b>History</b><br>
-Selarong Cave, also known as Diponegoro Cave, <br>is a historic cave as well as a natural and religious tourist spot located in Pajangan District, Bantul Regency, Yogyakarta Special Region.</h3>
-	</div><br>
-	</div>
-	<div class="box3" >
-	  <h1 class="font_box">
-	    <b>Light</b>
-BlackTrack is designed to be lightweight, so it can run on minimal hardware!.<br>
-<b>Notes</b>:for hardware requirements please check on installation page or BlackTrack installation guide book,
-for it u can check on Download pages.
-	  </h1>
-	</div>
-	</center>
-	<div class="box4">
-	  <h1 class="font_box1" ><div>
-	    <b>Fast</b>
-BlackTrack is designed for fast use (ready to use <br><b>Note</b>: for boot speed or other, depending on hardware<br>please check hardware requirements on Download page.)</div>
-	  </h1><div><img src="blacktrack_portable.png" style="width: 150px;"/></div>
-	</div>
+  <center>
+    <div class="box4">
+      <h1 class="font_box1">
+        <span>BlackTrack is a distribution or distro made based on debian, BlackTrack is designed for cyber security experts as well as for hackers and a student or focuses on network hacking or network penetration testing, BlackTrack can be used by everyone, BlackTrack is a free distro! Try BlackTrack now!</span></div>
+      </h1>
+      </div>
+      <div class="box3">
+        <div class="font_box3">
+          <span>Community and support groups BlackTrack also has a support group that is easy to access via telegram. Notes: The rules in the group must be followed, otherwise we will take strict action against them! in accordance with the provisions that apply!.</span>
+        </div>
+      </div>
+  </center>
 	<br>
 </body>
 </html>
