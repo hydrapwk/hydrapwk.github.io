@@ -44,11 +44,11 @@ html {
 /*=============================== ===========================*/
 
 body {
-  height: 4000px;
-  width: 100%;
-  position: relative;
   margin: 0px auto;
-  background-color: #fdfdfd;
+  background-color: #111926;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixex;
 }
 
 .nav {
@@ -58,7 +58,7 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
-  background-color: white;
+  background-color: #111926;
   transition: .3s;
 }
 
@@ -78,7 +78,7 @@ body {
   margin: 0 auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: white;
+  background-color: #111926;
   padding: 20px 0;
 
 }
@@ -86,10 +86,10 @@ body {
 .brand {
   font-size: 1.5rem;
   font-weight: 600;
-  color: black;
+  color: white;
 }
 .brand span {
-  color: black
+  color: white;
 }
 
 .brand img {
@@ -122,7 +122,7 @@ body {
   padding: 10px 0;
   width: 100%;
   margin: 5px 0;
-  color: black;
+  color: white;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,11 +207,11 @@ body {
       position: inherit;
       display: flex;
       position: relative;
-      color: black;
+      color: white;
     }
 
     .nav-menu-dekstop a:nth-child(2) {
-      border: 1px solid black;
+      border: 1px solid white;
       border-radius: 10px;
     }
 
@@ -220,14 +220,38 @@ body {
 
 .explanation {
   font-family: 'Outfit', sans-serif;
-  color: black;
+  color: white;
   text-align: center;
   padding-block-start: 15px;
   padding-block-end: 15px;
   margin-top: 20px;
   margin-bottom: 0%;
   font-weight: inherit;
+  font-size: large;
+}
+
+.explanation2 {
+  font-family: 'Outfit', sans-serif;
+  color: #A3B1CC;
+  text-align: center;
+  font-weight: inherit;
   font-size: medium;
+}
+
+.explanation3 {
+  font-family: 'Outfit', sans-serif;
+  color: #A3B1CC;
+  text-align: center;
+  font-weight: inherit;
+  font-size: small;
+}
+
+.title_font {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: inherit;
+  font-size: small;
 }
 
 .changelog_font {
@@ -250,6 +274,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  border-radius: 8px;
 }
 
  
@@ -301,11 +326,89 @@ hr {
   color: #ffffff;
 } 
 
+.box1 {
+width: 300px ;
+height: 300px ;
+background: #ffffff14;
+border-radius: 5px;
+text-align: center;
+font-family: 'Outfit', sans-serif;
+color: white;
+box-sizing: auto;
+font-size: 3px auto;
+}
+
+.exactCenter {
+      width:200px;
+      height:200px;
+      position: fixed;
+      background-color: #00FF00;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -100px;
+    }
+
+.box2{
+width:230px;
+height:230px;
+background:blue;
+border-radius: 10px;
+}
+
+.box3 {
+width:250px auto;
+height:250px auto;
+background: #2a1f1f;
+border-radius: 0px;
+text-align: center;
+font-family: 'Outfit', sans-serif;
+color: white;
+font-size: small;
+font-weight: inherit;
+margin-top: 5px;
+}
+
+.box4 {
+width:250px auto;
+height:250px auto;
+background: white;
+border-radius: 0px;
+text-align: center;
+font-family: 'Outfit', sans-serif;
+color: white;
+font-size: small;
+font-weight: inherit;
+margin-bottom: 5px;
+}
+
+.font_box {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: inherit;
+  font-size: small;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.font_box1 {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: inherit;
+  font-size: small;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 </style>
 <body>
 	<nav class="nav">
 		<div class="nav-area">
-			<a class="brand" href="">
+			<a class="brand" href="#">
 				<!-- Text -->
 				<span>BlackTrack</span>
 
@@ -330,16 +433,30 @@ hr {
 	<br>
 	<br>
 	<br>
-		<h1 class="explanation"><b>Off to a great start with using BlackTrack.</b><br>BlackTrack is a distro free for penetration focused at network like ,wireless,Router and etc.<br>BlackTrack is built on Debian based </h1>
-	<img src="blacktrack_portable.png" alt="BlackTrack_laptop" width="100px" style="margin-bottom:90px;"/>
+		<h1 class="explanation"><b>Off to a great start with using BlackTrack <br>Network Cyber Security Distro</b></h1><br><h1 class="explanation2">BlackTrack is a distro free for penetration focused at network like ,wireless,Router and etc.<br>BlackTrack is built on Debian based </h1>
+	<img src="blacktrack-logo.png" alt="BlackTrack_laptop"/>
 	<br>
+	<center>
+<div class="box1"><h1 class="title_font">New release available v2.0b(Selarong)</h1><br>
+	  <img src="banner_selarong.jpg" width="100px" /><br><h1 class="explanation3"><b>History</b><br>
+Selarong Cave, also known as Diponegoro Cave, <br>is a historic cave as well as a natural and religious tourist spot located in Pajangan District, Bantul Regency, Yogyakarta Special Region.</h3>
+	</div><br>
+	</div>
+	<div class="box3" >
+	  <h1 class="font_box">
+	    <b>Light</b>
+BlackTrack is designed to be lightweight, so it can run on minimal hardware!.<br>
+<b>Notes</b>:for hardware requirements please check on installation page or BlackTrack installation guide book,
+for it u can check on Download pages.
+	  </h1>
+	</div>
+	<div class="box4">
+	  <h1 class="font_box1">
+	    <b>Fast</b>
+BlackTrack is designed for fast use (ready to use <br><b>Note</b>: for boot speed or other, depending on hardware<br>please check hardware requirements on Download page.)
+	  </h1><img src="blacktrack_portable.png" style="width: 150px;"/>
+	</div>
+	</center>
 	<br>
-	<br>
-<hr size="3px" color="black">
-	<img src="lightweight.png" style="width:40vw;" align="center" margin-top="0px"/>
-	<p style="margin-left:22px;"><b>Light</b></p><p style="margin-left:22px; font-size:15px;">BlackTrack is designed to be lightweight, so it can run on minimal hardware!.<br><i>Notes:</i>for hardware requirements please check on installation page or BlackTrack installation guide book,<br> for it u can check on Download pages.</p>
-	<br>
-	<img src="fast.png" style="width:40vw;" align="center" alt="fasticon"/>
-	<p style="margin-left:22px;"><b>Fast</b></p><p style="margin-left:22px; font-size:15px;">BlackTrack is designed for fast use (ready to use Note: for boot speed or other, depending on hardware, please check hardware requirements on Download page.)<br>
 </body>
 </html>
