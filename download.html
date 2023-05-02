@@ -361,7 +361,7 @@ border-radius: 10px;
 .box3 {
 width:250px auto;
 height:250px auto;
-background: hsl(0, 19%, 15%);
+background-image: url(pxfuel.jpg);
 border-radius: 0px;
 text-align: center;
 font-family: 'Outfit', sans-serif;
@@ -482,7 +482,132 @@ p {
     padding-top: 3.5em;
     padding-bottom: 3.5em;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button {
+  width: 120px;
+  height: 35px;
+  background-color: #fff;
+  position: relative;
+  border: 3px solid #57DAB2;
+  border-radius: 22px;
+  transition: all .3s cubic-bezier(.13,.71,.57,1.29);
+  cursor: pointer;
+  
+  &__checkmark--container {
+    opacity: 0;
+    transform: rotate(-45deg);
+    height: 35px;
+    transition: all .3s cubic-bezier(.13,.71,.57,1.29);
+  }
+ 
+  &__checkmark {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    
+    &:nth-of-type(1) {
+      top: 50%;
+      left: 50%;
+      transform: translate(0%, -50%) rotate(30deg);
+      width: 5px;
+      height: 17px;
+    }
+    
+     &:nth-of-type(2) {
+      top: 60%;
+      left: 40%;
+      transform: translate(-50%, -50%) rotate(-60deg);
+      width: 5px;
+      height: 7px;
+    }
+  }
+  
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #57DAB2;
+    border-radius: 50%;
+    transform: translateX(-50%) scale(1.1);
+    transition: all .3s cubic-bezier(.13,.71,.57,1.29);
+    opacity: 0;
+  }
+  
+  &.active {
+    width: 35px;
+    border-radius: 50%;
+    
+    &::before {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.1);
+    transition: all .4s cubic-bezier(.13,.71,.57,1.29) .1s;
+    }
+    
+    .button__span {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(.5) rotate(30deg);
+    }
+    
+    .button__checkmark--container {
+      opacity: 1;
+      transform: rotate(0deg);
+      transition: all .3s cubic-bezier(.13,.71,.57,1.29) .2s;
+    }
+  }
+  
+  
+  &__span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #57DAB2;
+    transition: all .3s cubic-bezier(.13,.71,.57,1.29);
+  }
+}
+
 </style>
+
+<script>
+  const $button = $('.button');
+
+const button = {
+  init() {
+    $($button).addClass('active');
+    
+    setTimeout(function(){ 
+      $($button).removeClass('active');
+    }, 1000);
+  }
+}
+
+$($button).click(function test() {
+  if(!$($button).hasClass('active')) {
+     button.init();
+  }
+})
+
+</script>
 <body>
 	<nav class="nav">
 		<div class="nav-area">
@@ -540,9 +665,15 @@ p {
             <span>- Change from arctica-greeter to lightdm-greeter as default.</span><br>
             <span>- Change grub default theme.</span><br>
         </h1>
-        <div class="font_box3" style="margin-top: 20px;">
-            Notes: BlackTrack doesn't have a standalone repository yet, so don't use apt-upgrade :), thanks for your time.
+        <br>
+        <div class="font_box3" style="margin-top: 20px; margin-bottom: 1.5em;">
+            <span>Notes: BlackTrack doesn't have a standalone repository yet, so don't Andvanced packaging tool (Apt) for upgrade :), thanks for your time.</span><br>
         </div>
+        <button class="button">
+          <div class="explanation2">
+            <span><a href="https://mega.nz/file/ar4AWIoZ#1ALAudIYjqlB4UbpTXMeND7gpGQllYkjC2n4wi9Nj58" style="color: black;">Download</a></span>
+          </div>
+        </button>
     </div>
 </body>
 </html>
