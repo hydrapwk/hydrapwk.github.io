@@ -10,6 +10,7 @@ Changelog:
 - New Pages Style Containing Landing pages, Download Pages
 - Default kernel Is Debian
 - Fixing Missing Icons 
+- BlackTrack logo change
 - Adding carbon-menu / BlackTrack-Menu, fork from parrotsec
 - Change plymouth themes
 
