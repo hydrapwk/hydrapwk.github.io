@@ -1,0 +1,16 @@
+// BlackTrack 4.0.surabaya Official Changelog
+
+Changelog:
+- Rebase From stable to testing
+- Now 50+ pre installed core tools
+- Change Default Desktop Themes
+- Change from xfce to MATE
+- Change Grub themes
+- New wallpaper
+- New Pages Style Containing Landing pages, Download Pages
+- Default kernel Is Debian
+- Fixing Missing Icons 
+- Adding carbon-menu / BlackTrack-Menu, fork from parrotsec
+- Change plymouth themes
+
+//endChangelog
