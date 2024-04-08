@@ -21,3 +21,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 #### Test(id=test)
 
 ### test1[id=test]
+### test ![id=test]
+
+### test [test]
+
+### <h2 id="test">Test</h2>
