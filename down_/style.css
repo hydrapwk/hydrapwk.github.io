@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+    font-family: 'Play', sans-serif;    
+}
+
+#nav-right {
+    background-color: none;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-right: 10px;
+}
+
+#li-right {
+    background-color: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+#button {
+    background-color: #a0bff0;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#li-right a {
+    text-decoration: none;
+    color: white;
+}
+.navlogos img {
+    width: 60px;
+}
+
+.navlogos {
+    background-color: none;
+    display: flex;
+    justify-content: left;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px solid #a0bff0;
+}
+
+.navlogos ul {
+    display: flex;
+    gap: 20px;
+    margin-left: -20px;
+}
+
+.navlogos li {
+    list-style: none;
+    color: white;
+}
+
+.navlogos a {
+    color: white;
+    text-decoration: none;
+}
+
+.class_main {
+    background-color: transparent;
+    width: 130vh;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.class_main h1 {
+    color: white;
+}
+
+.main_banner {
+    background: url("assets/wd.jpg");
+    opacity: 0.3;
+    min-height: 10vh;
+    padding: 0;
+    box-shadow: #508C9B;
+    margin: 0;
+}
+
+
+.class_download {
+    background-color: none;
+    min-height: 90vh;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.card_download {
+    margin: auto;
+    justify-content: center;
+    background-color: none;
+    /* box-shadow: 0 0px 10px 0 #02BEFD; */
+    border: 1px solid #a0bff01e;
+    background-color: none;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 30%;
+    transition: 1s;
+}
+
+.card_download:hover {
+    box-shadow: 0 0px 10px 0 #a0bff0;
+    transform: translateY(-20px);
+}
+
+.card_download hr {
+    color: white;
+    width: auto;
+}
+.card_download h1 {
+    /* color: rgb(65, 62, 62); */
+    color: #a0bff0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card_download h2 {
+    font-weight: normal;
+    line-height: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.card_download a{
+    text-decoration: none;
+}
+.card_download h3 {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #a0bff0;
+    align-items: center;
+}
+
+footer {
+    background-color: none;
+	-webkit-box-shadow:  0 -9px 8px -9px #02BEFD;
+	-moz-box-shadow:  0 -9px 8px -9px #02BEFD;
+	box-shadow: 0 -9px 8px -9px #02BEFD;
+    width: 100%;
+    margin-top: 100px;
+    min-height: 30vh;
+    font-family: 'Play', sans-serif;    
+    padding: 20px;
+    justify-content: center;
+}
+
+.class_footer {
+    gap: 40px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.class_footer ul {
+    border-bottom: none;
+    color: white;
+    display: block;
+    justify-content: center;
+}
+
+.class_footer p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.class_footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
