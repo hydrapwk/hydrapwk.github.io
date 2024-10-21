@@ -30,6 +30,7 @@ keep_files: [blog, assets]
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 include: ["_pages"]
 exclude: 
