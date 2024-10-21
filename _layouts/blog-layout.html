@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/index-blog.css">
+
+    <!-- googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- endGoogleFonts -->
+</head>
+<body>
+    <section class="main_containt">
+        <h1>Recent Post</h1>
+        <section class="insde_blog">
+            <ul class="card">
+                {% for post in site.posts %}
+                    <li>
+                        <img src="{{ post.thumbnail }}">
+                        <span>{{ post.date | date: "%-d %B %Y" }}, By {{ post.author }}</span>
+                        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                        <p>{{ post.description }}</p>
+                        <a href="{{ post.url }}" id="button">README</a>
+                      </li>
+                </a>
+                {% endfor %}
+              </ul>
+        </section>
+    </section>
+</body>
+</html>
