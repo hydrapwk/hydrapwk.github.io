@@ -78,7 +78,7 @@ footer {
     font-weight: normal;
 }
 .main_containt {
-    background: url(assets/blacktrack_banner.gif);
+    /* background: url(assets/bg_skull.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
