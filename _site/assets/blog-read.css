@@ -6,8 +6,12 @@
 body {
     font-family: "Poppins", system-ui;
     color: white;
+    background-color: #f0f0f0;
 }
 
+header {
+    z-index: 10;
+}
 .first_nav {
     padding-top: 5px;
     display: flex;
@@ -66,6 +70,7 @@ body {
 
 .main_containt {
     margin-bottom: 100px;
+    background-color: #f0f0f0;
 }
 .containt {
     width: 90%;
@@ -133,7 +138,7 @@ aside h1 {
     justify-content: center;
     position: relative;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgb(243, 227, 227);
 }
 
 .inside_banner {
@@ -162,6 +167,7 @@ aside h1 {
     border-top: 1px solid rgba(0, 0, 0, 0.26);
     font-family: "Plus Jakarta Sans", sans-serif;
     color: black;
+    
 }
 
 .tag_box {
@@ -214,6 +220,8 @@ pre {
 .inside_blog img {
     margin-top: 25px;
     margin-bottom: 35px;
+    width: 100%;
+    margin: auto;
 }
 
 .inside_blog li::marker {
@@ -236,8 +244,20 @@ pre {
     padding-left: 0;
     letter-spacing: -1px;
     color: rgb(19, 15, 15);
+    margin: 30px;
+    margin-left: 0;
 }
 
+.inside_blog h3 {
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin: 15px;
+    margin-left: 0;
+    font-size: 15px;
+}
 .inside_blog p {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: rgb(70, 59, 59);
