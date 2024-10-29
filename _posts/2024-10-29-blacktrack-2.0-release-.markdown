@@ -1,7 +1,7 @@
 ---
 layout: read
 title: "BlackTrack 2.0 Release (Online repo, New tools, etc)"
-date: 2024-10-18 14:30:24 -0500
+date: 2024-10-29 20:08:24 +0700
 author: joe
 thumbnail: /assets/release/bt-2.0/thumbnail.png
 permalink: /blog/:title

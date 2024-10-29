@@ -30,6 +30,7 @@ keep_files: [blog, assets]
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 include: ["_pages"]
 exclude: 
@@ -37,6 +38,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _config.yml
+
+timezone: "Asia/Jakarta"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
