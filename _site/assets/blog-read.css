@@ -308,6 +308,54 @@ pre {
 }
 
 
+
+
+
+
+
+
+/* table */
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+}
+
+td {
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 5px;
+    color: rgb(39, 37, 37);
+    background-color: transparent;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+tr {
+    text-align: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+
+
+/* endTable */
+
+
+
+
 /* mediaQuery */
 
 @media only screen and (max-width: 600px) {

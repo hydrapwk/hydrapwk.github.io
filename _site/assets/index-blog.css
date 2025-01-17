@@ -1,105 +1,195 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", serif;
+    background-color:  #141414;
 }
-
-/* container */
 
 .main_containt {
-    background-color: white;
-    width: 100%;
-    margin: auto;
+    background-color: transparent;
     height: 100%;
     min-height: 100vh;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
 }
 
-.main_containt h1 {
-    margin-top: 0;
-    margin-bottom: 100px;
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-}
-.inside_blog {
-    background-color: green;
-    width: 80%;
-    margin: auto;
-    height: 90%;
-    min-height: 90%;
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 100%;
+    min-height: 20vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.banner h1 {
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 30px;
+}
+/* endBanner */
+
+/* whatsnew */
+
+.whats-new {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
+
+/* endWhatsnew */
+
+
+/* card */
 
 .card {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    order: -1;
-    justify-content: space-evenly;
-    gap: 50px;
+    width: 95%;
+    gap: 40px;
 }
 
 .card li {
-    background-color: white;
-    /* box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.253); */
-    width: 90%;
-    max-width: 700px;
+    width: 450px;
     list-style: none;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: left;
-}
-
-.card li img {
-    width: 100%;
-    border-radius: 10px;
+    background-color:  #282828;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.096);
 }
 
 .card a {
     text-decoration: none;
 }
-
-.card li h2 {
-    font-weight: normal;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: black;
-    line-height: 30px;
-
-}
-.card li p {
-    margin-top: 10px;
-    color: rgba(0, 0, 0, 0.637);
+.card img {
     width: 100%;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    padding: none;
-    -webkit-line-clamp: 8;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    margin-bottom: 40px;
+    border-radius: 5px;
 }
 
-#button {
+.card h2 {
+    font-weight: normal;
+    color: white;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.card p {
+    font-weight: normal;
+    color: rgb(204, 193, 193);
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.card span {
+    padding-left: 0;
+    color: white;
+    vertical-align: bottom;
+}
+/* endCard */
+
+/* footer */
+
+footer {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    min-height: 20vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.inside-footer {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.link {
     background-color: transparent;
     padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: rgb(112, 112, 204);
-    font-family: "Plus Jakarta Sans", sans-serif;
-    border: 1px solid rgba(0, 0, 0, 0.192);
+    display: flex;
+    gap: 100px;
+    margin: auto;
 }
 
-.card li span {
-    color: rgba(0, 0, 0, 0.411);
+.link h1 {
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+    line-height: 15px;
 }
+.link ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.link li {
+    list-style: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    line-height: 2;
+    transition-duration: 0.40s;
+}
+
+.link a:hover {
+    color: gray;
+}
+.logo {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    width: 200px;
+    margin-top: 30px;
+}
+.logo img {
+    width: 350px;
+}
+
+/* endFooter */
+
