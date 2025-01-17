@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}}</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/index-home.css">
 
     <!-- googleFonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <!-- endGoogleFonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!-- endGooglefonts -->
 
     <!-- remixIcons -->
-
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
-
-    <!-- endRemixIcons -->
-{% seo %}
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+    <!-- endRemixicons -->
 </head>
 <header class="navbar">
     <div class="first_nav">
@@ -30,94 +30,106 @@
     </div>
     <div class="navflex">
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">DOC</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/doc">DOC</a></li>
         </ul>
         <ul>
-            <li><a href="#">SUPPORT</a></li>
+            <li><a href="/support">SUPPORT</a></li>
             <li><a href="/blog">BLOG</a></li>
+            <li><a href="/team">TEAM</a></li>
         </ul>
     </div>
 </header>
 <body>
     <section class="main_containt">
-        <div class="banner">
-            <section class="paragraph">
-                <h1>{{ page.title }}</h1>
-                <p>{{ page.description }}</p>
-                <a href="#">Get Started</a>
+        <section class="banner">
+            <section class="inside_banner">
+                <div class="paragraph">
+                    <h1>welcome to onboard</h1>
+                    <p>{{ page.description }}</p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="product">
+                    <img src="/assets/product.png">
+                </div>
             </section>
-        </div>
-    </section>
-    <section class="second_containt">
-        <div class="in_containt">
-            <h1>Description</h1>
-            <p>BlackTrack is a Debian-based Linux distribution for IT and other related purposes.</p>
-        </div>
-        <div class="box_red">
-            <h1 style="color: white;">Various tools</h1>
-            <p style="color: white;">BlackTrack is only a platform (tool), which provides various tools for IT needs, including exploits, cracking, reversing, forensics, networking.</p>
-        </div>
-        <img src="/assets/blacktrack_brain.png">
-    </section>
-    <section class="containt_3">
-        <h1>no fees for users, Free</h1>
-        <p>This project is a free project!, anyone can download it, but if you want to support the developer, click the link below</p>
-        <a href="#">ko-fi <i class="ri-cup-fill"></i></a>
-    </section>
-    <section class="changelog">
-        <div class="inside">
-            <h1 id="blog">Recent Post</h1>
-            <ul class="card">
-                {% for post in site.posts limit:3 %}
-                <a href="{{ post.url }}">
+        </section>
+        <section class="second_containt">
+            <section class="second_inside">
+                <ul class="card">
                     <li>
-                        <img src="{{ post.thumbnail }}">
-                        <h2>{{ post.title }}</h2>
-                        <p>{{ post.description }}</p>
-                      </li>
-                </a>
-                {% endfor %}
-              </ul>
-        </div>
+                        <h1><i class="ri-speed-up-fill"></i> lightweight</h1>
+                        <p>RAM usage less than 600MB (idle)</p>
+                    </li>
+                    <li>
+                        <h1><i class="ri-user-community-line"></i> Community</h1>
+                        <p>Gather with blacktrack users</p>
+                    </li>
+                    <li>
+                        <h1><i class="ri-puzzle-2-line"></i> Complex</h1>
+                        <p>One tool, one task</p>
+                    </li>
+                    <li>
+                        <h1><i class="ri-open-source-line"></i> Open source</h1>
+                        <p>Everything is open source 98.7% free</p>
+                    </li>
+                </ul>
+            </section>
+            <img src="/assets/notebook.png">
+        </section>
+        <section class="recent-blog">
+            <h1><i class="ri-newspaper-line"></i> Check the latest news from <a href="/blog">blog</a></h1>
+            <div class="inside-blog">
+                <ul class="card-recent">
+                    {% for post in site.posts limit:4 %}
+                        <li>
+                            <img src="{{ post.thumbnail }}">
+                            <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                            <p>{{ post.description }}</p>
+                            <span>{{ post.date | date: "%-d %B %Y" }}, By {{ post.author }}</span>
+                          </li>
+                    </a>
+                    {% endfor %}
+                  </ul>
+            </div>
+        </section>
+    </section>
+    <section class="end-of">
+        <section class="inside-enof">
+            <h1></h1>
+        </section>
     </section>
     <footer>
-        <section class="myfooter">
-            <section class="link">
-                <ul class="link-flex">
-                    <h1>Pages</h1>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
+        <section class="inside-footer">
+            <div class="link">
+                <ul>
+                    <h1>RESOURCES</h1>
                     <li><a href="#">Documentation</a></li>
+                    <li><a href="/blog">Blog</a></li>
                 </ul>
-                <ul class="link-flex">
-                    <h1>Development</h1>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Gitlab</a></li>
-                </ul>
-                <ul class="link-flex">
-                    <h1>Support</h1>
-                    <li><a href="#">Telegram</a></li>
-                    <li><a href="#">Discord</a></li>
-                    <li><a href="#">GitHub Issue</a></li>
-                </ul>
-                <ul class="link-flex">
-                    <h1>Community</h1>
-                    <li><a href="#">Telegram</a></li>
+                <ul>
+                    <h1>COMMUNITY</h1>
+                    <li><a href="https://t.me/blacktracksec">Telegeram</a></li>
                     <li><a href="#">Discord</a></li>
                 </ul>
-                <ul class="link-flex">
-                    <h1>Social</h1>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Tweeter</a></li>
+                <ul>
+                    <h1>SUPPORT</h1>
+                    <li><a href="https://github.com/blacktracksec/blacktrack/issues">Issue</a></li>
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">Troubleshooting</a></li>
                 </ul>
-            </section>
-            <section class="about">
-                <section class="inside-about">
-                    <h1>&copy; BlackTrack 2023 All rights reserved. </h1>
-                </section>
-            </section>
+                <ul>
+                    <h1>DOCUMENTATION</h1>
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">About</a></li>
+
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="assets/blacktrack-white-logo.png">
+                <h1>&copy; BlackTrack 2024 All rights reserved.</h1>
+            </div>
         </section>
     </footer>
 </body>

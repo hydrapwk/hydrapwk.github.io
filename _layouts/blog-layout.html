@@ -15,21 +15,55 @@
 </head>
 <body>
     <section class="main_containt">
-        <h1>Recent Post</h1>
-        <section class="insde_blog">
+        <section class="banner">
+            <h1>Welcome To BlackTrack Blog</h1>
+        </section>
+        <div class="whats-new">
             <ul class="card">
                 {% for post in site.posts %}
                     <li>
                         <img src="{{ post.thumbnail }}">
-                        <span>{{ post.date | date: "%-d %B %Y" }}, By {{ post.author }}</span>
                         <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
                         <p>{{ post.description }}</p>
-                        <a href="{{ post.url }}" id="button">README</a>
+                        <span>{{ post.date | date: "%-d %B %Y" }}, By {{ post.author }}</span>
                       </li>
                 </a>
                 {% endfor %}
               </ul>
-        </section>
+        </div>
     </section>
+    <footer>
+        <section class="inside-footer">
+            <div class="link">
+                <ul>
+                    <h1>RESOURCES</h1>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                </ul>
+                <ul>
+                    <h1>COMMUNITY</h1>
+                    <li><a href="https://t.me/blacktracksec">Telegeram</a></li>
+                    <li><a href="#">Discord</a></li>
+                </ul>
+                <ul>
+                    <h1>SUPPORT</h1>
+                    <li><a href="https://github.com/blacktracksec/blacktrack/issues">Issue</a></li>
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">Troubleshooting</a></li>
+                </ul>
+                <ul>
+                    <h1>DOCUMENTATION</h1>
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">About</a></li>
+
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="/assets/blacktrack-white-logo.png">
+                <h1>&copy; BlackTrack 2024 All rights reserved.</h1>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
