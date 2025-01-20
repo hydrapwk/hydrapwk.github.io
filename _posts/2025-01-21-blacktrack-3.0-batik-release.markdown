@@ -35,6 +35,7 @@ in this release we're using DWM as default GUI, Why? that's because WM like DWM 
 However some people may need to adapt to WM
 
 BlackTrack DWM keyboard
+
 | Key | Exec    | Mode    |
 | :---:   | :---: | :---: |
 | Win+f | Float Layout   | - |
