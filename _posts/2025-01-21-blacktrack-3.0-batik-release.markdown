@@ -8,9 +8,6 @@ permalink: /blog/:title
 description: Today, BlackTrack released the latest version (3.0) with the codename 'BATIK' (Batik is a pictorial cloth made by dyeing cloth using wax. Batik is an Indonesian cultural heritage that has been recognized worldwide.)
 ---
 
-# 
-
-
 Today, BlackTrack released the latest version (3.0) with the codename 'BATIK' (Batik is a pictorial cloth made by dyeing cloth using wax. Batik is an Indonesian cultural heritage that has been recognized worldwide.)
 
 
