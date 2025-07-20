@@ -36,7 +36,7 @@ GRUB will show up, just press enter ("Try/Install").
 
 ### 1.3 Hydra Environment
 
-in some version release Hydra you may should login and you can enter user <b>hydra</b> and password <b>hydra</b>.
+in some version release Hydra you may should login and you can enter user <b>hydrapwk</b> and password <b>hydrapwk</b>.
 after you success login you will seen Desktop icon with label "Install Hydra" just double click thats icon.
 
 > In some case you need launch manually, just open terminal and type <b>"sudo debian-install"</b> may you need entering password <b>hydra</b>
