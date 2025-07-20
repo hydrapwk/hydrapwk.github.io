@@ -28,6 +28,9 @@ Select image (.ISO/IMG) you have already download from official HydraPWK pages.
 
 ![Select image](/assets/doc_assets/installation_graphics/bootable/choose-the-image.png)
 
+> If you get warning you can ignore it! Trust me :)
+
+
 Next step you need choose media make sure you have already insert your media.
 
 > Make sure you backup your data before continue this step
@@ -49,6 +52,8 @@ Now you can use bootable media.
 
 
 ### Creating bootable media for Hydra Using DD.
+
+> We doesn't recommends this method but you can Try!
 
 > As example we have USB Flash drive you can check your media partition via fdisk
 
