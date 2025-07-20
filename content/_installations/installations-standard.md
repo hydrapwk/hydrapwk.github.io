@@ -21,7 +21,7 @@ update: 2025-07-11 01:22:24 +0700
 
 I'm sure you have already know how to Installing "OS" using calamares, but don't worries we will give you guide if you doesnt know.
 make sure you have ISO image from [Official Hydra site](/) (if you don't know how to download [clickme](/doc/introductions/downloading-image-from-hydra-site)).
-second step you need burn ISO image to your Media such <b>FLASHDRIVE</b> or <b>CD</b> doesn't know how to burn? [clickme](/doc/introduction/make-hydra-bootable-media).
+second step you need burn ISO image to your Media such <b>FLASHDRIVE</b> or <b>CD</b> doesn't know how to burn? [clickme](/doc/installation/make-media-bootable-for-hydra).
 <br>
 
 ### 1.2 Boot into Hydra system using LIVE media.
