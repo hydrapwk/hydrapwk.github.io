@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.main_containt {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first_containt {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.in-scope {
+    background-color: transparent;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.first_containt h1 {
+    font-weight: bolder;
+    font-size: 2.5em;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+    font-family: "TikTok Sans", sans-serif;
+}
+
+.inside_containt {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.inside_containt img {
+    width: 40%;
+    padding: 30px;
+}
+
+.inside_containt h2 {
+    font-weight: normal;
+    padding-top: 10px;
+    font-family: "TikTok Sans", sans-serif;
+    text-decoration: underline red;
+    font-size: 0.9em;
+}

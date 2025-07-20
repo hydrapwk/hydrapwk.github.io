@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/doc.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/footerfordoc.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/navbarfordoc.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    
+        <!-- googleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">    <!-- endGoogleFonts -->
+        <!-- endGOogleFonts -->
+    
+        <!-- remixIcons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+        <!-- endRemix -->
+        
+    </head>
+<body>
+{% include navbarfordoc.html %}
+    <div class="main_containt">
+        <div class="right_sidebar">
+            <div class="links_right">
+                <a href="/get">Get Hydra <i class="ri-shopping-cart-2-line"></i></a>
+                <a href="https://github.com/hydrapwk/hydrapwk/issues">Bug Tracker <i class="ri-bug-line"></i></a>
+                <a href="#">Packages Tracker <i class="ri-inbox-unarchive-line"></i></a>
+            </div>
+            <img src="/assets/logo/hydra_logo.svg">
+            <span>Copyright &copy; Hydra 2025. All right reserved.</span>
+            <div class="last_update">
+                <h1><i class="ri-edit-2-line"></i> updated: {{ page.update | date: "%-d %B %Y" }}, By {{ page.author }}</h1>
+            </div>
+        </div>
+        <div class="left_sidebar">
+
+        </div>
+        <div class="inside_docs">
+            <div style="width: 90%; height: 100%;">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

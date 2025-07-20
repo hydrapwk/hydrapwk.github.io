@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page.title}} | blog </title>
+    <link rel="stylesheet" href="/assets/css/blog_read.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+
+    <!-- googleFonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- endGoogleFonts -->
+
+    <!-- remixIcons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+    <!-- endRemixIcons -->
+</head>
+<body>
+    {% include navbar.html %}
+    <div class="main_blog">
+        <div class="inside_blog">
+            <div class="banner">
+                <h4 id="bannerh1">{{ page.title }}</h4>
+                <div class="by">
+                    <span><i class="ri-user-line"></i> {{ page.author }}</span>
+                    <span>|</span>
+                    <span><i class="ri-calendar-line"></i> {{ page.date | date: "%-d %B %Y" }} </span>
+                </div>
+                <img src="{{page.thumbnail}}">
+            </div>
+            <div class="write_containt">
+                {{ content }}
+            </div>
+        </div>
+        <div class="right_side">
+            <h2>
+                CONNECT WITH US
+            </h2>
+            <div class="right_links">
+                <a href="https://github.com/hydrapwk/"><i class="ri-github-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="https://t.me/blacktracksecurity"><i class="ri-telegram-fill"></i></a>
+                <a href="https://gitlab.com/hydrapwk"><i class="ri-gitlab-fill"></i></a>
+            </div>
+            <!-- <div class="sideright_button">
+                <a href="#">documentations <i class="ri-shopping-cart-2-line"></i></a>
+            </div> -->
+            <div id="hydrapwk-banner">
+                <h1>BlackTrack is<br>now HydraPWK</h1><br>
+            </div>
+        </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+    </div>
+    {% include footer.html %}
+</body>
+</html>

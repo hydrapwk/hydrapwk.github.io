@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main_team {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    min-height: 90dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inside_team {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.team_banner {
+    width: 100%;
+    min-height: 30dvh;
+    background: url('/assets/graphics/hydrateam-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inside_team h2 {
+    border-left: 5px solid red;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(11, 41, 41);
+    margin: 30px;
+    margin-top: -100px;
+    text-align: left;
+}
+
+#card {
+    width: 20%;
+    height: 100%;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    list-style: none;
+    border-radius: none;
+    transition: all ease 360ms;
+}
+
+
+#card img {
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    width: 100%;
+    pointer-events: none;
+    max-width: 300px;
+}
+
+.detailed {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.detailed h1 {
+    padding-bottom: 10px;
+    border: none;
+    font-style: normal;
+    color: black;
+    padding: 0;
+    padding-left: 0;
+    border-bottom: 3px solid red;
+    padding-bottom: 20px;
+}
+.detailed p {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    letter-spacing: -1px;
+}
+.list_team {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    flex-wrap: wrap;
+}
+
+#card:hover {
+    transition: all ease 360ms;
+    transform: translateY(-10px);
+}
+
+#links {
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+
+#links a {
+    text-decoration: none;
+    color: red;
+}
+
+#links i {
+    font-size: 1.9em;
+    text-decoration: none;
+}
+
+.spesial_thanks {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 50px;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.spesial_thanks ul {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    background-color: transparent;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+
+#spesial_card {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    list-style: none;
+    transition: all ease 360ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    padding-top: none;
+    border-radius: 30px;
+}
+
+#spesial_card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    pointer-events: none;
+}
+
+#spesial_card h1 {
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.info {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#spesial_card:hover {
+    transform: translateY(-10px);
+}
+
+#spesial_card a {
+    color: darkcyan;
+    font-style: italic;
+}
+
+#spesial_card p {
+    color: black;
+    font-weight: normal;
+    letter-spacing: -1px;
+}

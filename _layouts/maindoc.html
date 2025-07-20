@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="/assets/css/main_doc.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/navbar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+</head>
+<body>
+	{% include navbar.html %}
+    <div class="main_docs">
+        <section class="banner">
+        </section>
+        <div class="inside_docs">
+            <div class="list_docs">
+                <ul>
+                    <li>
+                        <a href="/doc/introduction">
+                            <i class="ri-hourglass-line"></i>
+                            <h1>Introduction</h1>
+                            <p>Hystory and what is hydra?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/doc/intallation">
+                            <i class="ri-install-line"></i>
+                            <h1>Installation</h1>
+                            <p>Installing Hydra on laptop and supported device</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/doc/hydra-on-tv">
+                            <i class="ri-tv-line"></i>
+                            <h1>Hydra on TvBox</h1>
+                            <p>Installing Hydra on laptop and supported device</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/doc/hydra-on-mobile">
+                            <i class="ri-smartphone-line"></i>
+                            <h1>Hydra on mobile</h1>
+                            <p>Anything about Hydra mobile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/doc/gallery">
+                            <i class="ri-gallery-line"></i>
+                            <h1>Gallery</h1>
+                            <p>Desktop/screenshoot From BlackTrack until HydraPWk</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/doc/trademark-and-policy">
+                            <i class="ri-trademark-line"></i>
+                            <h1>Policy</h1>
+                            <p>Installing Hydra on laptop and supported device</p>
+                        </a>
+                    </li>
+                    <li id="ask">
+                        <h1>not find what are you looking?</h1>
+                        <a href="https://t.me/blacktracksecurity">Explore community!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+                <ul class="list">
+                    {% for post in site.cool limit:4 %}
+                    <li id="card_blog">
+                        <a href="{{ post.url }}">
+                        <img src="{{ post.thumbnail }}">
+                        <div class="inside_paraghraph">
+                            <span style="font-weight: 700;">{{ post.date | date: "%-d %B %Y" }}, By {{ post.author }}</span>
+                            <h1>{{ post.title }}</h1>
+                            <p>{{ post.description }}</p>
+                        </div>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+</body>
+{% include footer.html %}
+</html>

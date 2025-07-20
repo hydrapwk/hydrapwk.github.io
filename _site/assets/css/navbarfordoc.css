@@ -1,0 +1,116 @@
+/* navbar */
+
+#navget {
+    background-color: red;
+    padding: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: nome;
+    font-weight: normal
+}
+
+#navget:hover {
+    border: 1px solid white;
+    border-style: dotted;
+    background-color: transparent;
+}
+.navlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    border: 1px solid black;
+    font-size: 0.7em;
+}
+
+.navlogo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.navlogo:hover {
+    border: 1px solid white;
+    transition: all ease 100ms;
+    border-style: dotted;
+}
+.navlogo span {
+    font-weight: normal;
+    color: white;
+    font-size: 1.3em;
+}
+
+header {
+    display: block;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    background-color: transparent;
+}
+
+.navlist img {
+    width: 50px;
+    background-color: transparent;
+    display: block;
+    align-items: flex-start;
+    transition: all ease 100ms;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.flex a {
+    color: white;
+    font-weight: 600;
+    transition: all ease 400ms;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.flex a:hover {
+    transition: all ease 400ms;
+    border: 1px solid white;
+    border-style: dotted;
+}
+
+.flex i {
+    font-weight: normal;
+    font-size: 1.3em;
+}
+/* footer */
+footer {
+    /* box-shadow: inset 0px 5px 10px #0000006b; */
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    min-height: 50dvh;
+}
