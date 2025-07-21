@@ -5,10 +5,12 @@ permalink: /doc/introduction/hydra-history
 comments: true
 desc: This documentation will tell you story about Hydra and BlackTrack.
 author: Joe
-update: 2025-07-11 01:22:24 +0700
+update: 2025-07-22 01:08:00 +0700
 ---
 
 > HydraPWK (Previously BlackTrack), is an self development project
+
+before we start thats 2023 i'm starting this project my age still 16/17 years old
 
 ### 2023 The Beginning.
 
