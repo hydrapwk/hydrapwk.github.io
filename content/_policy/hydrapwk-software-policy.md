@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: normal-docs
 title: HydraPWK software Policy
 permalink: /doc/hydrapwk-software-policy
 desc: Anything about HydraPWK software license
