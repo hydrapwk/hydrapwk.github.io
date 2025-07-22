@@ -50,7 +50,11 @@ Love you all!
 - social-engineering-toolkit - The most social engineering tools
 - sippts - audit VoIP servers and devices using SIP protocol
 - sipvicious -  audit SIP based VoIP systems. Specifically, it allows you to find SIP servers
+- dump1090-fa - dump1090-fa is a ADS-B, Mode S, and Mode 3A/3C demodulator and decoder that will receive and decode aircraft transponder messages received via a directly connected software defined radio, or from data provided over a network connection.
 
+# dump1090-fa
+
+![](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/dump1090-fa.png)
 
 # Openxc Vehicle simulator
 
