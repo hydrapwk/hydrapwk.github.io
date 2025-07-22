@@ -22,6 +22,8 @@ This distribution contains several Penetration Testing tools, Includes Informati
 > - [Plug and Play]() - hydrapwk it's self having linux kernel name `xhydrapwk-rt1-antihacker` or `<VERSION_KERNEL>-xhydrapwk-rt1-antihacker-amd64-<ARCH>` not just RT as default we have also `built-in` kernel module, so with this you don't need to load module manually and thats will automatically loaded on boot.
 > - [Open-source]() - this software is Open-source all packages (a lot of packages/tools) under DFSG, GPLv2+, GPLv3, GPLv2, Apache license and it's Open-source (only on component main/free)
 > - [Device support]() - Curently we are still developing or adapt hydrapwk into `embedded device` like TvBox and Mobile.
+> - [Drop unit]() Drop every node cache every shutdown and boot
+
 
 ### HydraPWK For daily use (Daily driven)
 
