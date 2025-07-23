@@ -141,6 +141,7 @@ body {
 
 .inside_blog p {
     color: #666;
+    padding-top:10px;
 }
 
 .inside_blog h1 {
