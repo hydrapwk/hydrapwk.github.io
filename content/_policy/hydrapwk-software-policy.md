@@ -17,7 +17,7 @@ HydraPWK is an 'Open source' linux distribution based on Debian, includes severa
 - DebianFreeSoftwareGuidelines [DFSG](https://www.debian.org/social_contract#guidelines)
 - GNU General Public License [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 - GNU General Public License, version 2 [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-- Apache, version 2 [Apache LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-- The 3-Clause BSD License [BSD Modified LICENSE](https://opensource.org/license/BSD-3-Clause)
+- Apache, version 2 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
+- The 3-Clause BSD License [BSD-3-Clause](https://opensource.org/license/BSD-3-Clause)
 
 > For more Accurate LICENSE you can check [Debian LICENSE information](https://www.debian.org/legal/licenses/)
