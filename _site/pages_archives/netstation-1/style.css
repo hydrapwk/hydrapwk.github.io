@@ -1,0 +1,154 @@
+body {
+    background-color: #1a1225;
+    font-family: 'Objectivity', sans-serif;
+}
+
+
+.main_containt {
+    max-width: 1920px;
+    padding-left: 19px;
+    padding-right: 19px;
+    width: 100%;
+    margin-left: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.banner {
+    box-sizing: border-box;
+    margin-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.containt-1 {
+    box-sizing: auto;
+    padding-bottom: 19px;
+    padding-top: 5px;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    position: relative;
+    background-color: #2a2334;
+    margin-top: 150px;
+  }
+
+  .containt-2 {
+    box-sizing: auto;
+    padding-bottom: 19px;
+    padding-top: 5px;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 150px;
+  }
+
+.containt-flex {
+    box-sizing: auto;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    position: relative;
+    background-color: #2a2334;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containt-flex-release {
+  box-sizing: auto;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  max-width: 350px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  max-width: 350px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+  .banner_font {
+    font-family: 'Objectivity', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .font_name {
+    font-family: 'Formular mono', sans-serif;
+    color: white;
+    font-weight: inherit;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .font_name-release {
+    font-family: 'Formular mono', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .font_desc {
+    font-family: 'Formular', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: inherit;
+    line-height: 1.5;
+  }
+
+  .font-list-flex {
+    font-family: 'Formular', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: inherit;
+    line-height: 1.5;
+  }
+
+  .font_box-name-1 {
+    font-family: 'Formular', sans-serif;
+    font-size: 45px;
+    background: -webkit-linear-gradient(rgb(0, 225, 255),rgb(12, 16, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+  }
