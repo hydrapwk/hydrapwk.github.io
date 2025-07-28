@@ -116,16 +116,12 @@ footer {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .desktop_nav {
         display: none;
     }
  }
 
-
-header {
-    display: none;
-}
 .nav {
   padding: 0 15px;
   position: fixed;
@@ -265,7 +261,6 @@ flex-wrap: wrap;
       position: relative;
     }
 
-    /* Jika ingin menu di dekstop ada 3 */
     .nav-menu a:nth-child(5),
     .nav-menu a:nth-child(6) {
       display: none;
