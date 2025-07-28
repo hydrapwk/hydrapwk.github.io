@@ -40,4 +40,4 @@ if you doesn't have time to doing thats you can click link bellow
 ## conclusion
 
 This pages discuss about [Pages History](/doc/introduction/hydra-history) and recover old pages, including how can we(me) find it.
-conclusion of this post is, nothing important (only if you wanna seen my stupid im before)
+conclusion of this post is, nothing important (only if you wanna seen my stupid im before, how bad this project before, we can't lie about thats, this project very bad, so i just wanna Thak you to, our community loyal community, and i will always make this project better, once again ThankYou!)
