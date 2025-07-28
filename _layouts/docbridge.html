@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/assets/css/docbridge.css">
     <link rel="stylesheet" href="/assets/css/navbarfordoc.css">
-    <link rel="stylesheet" href="/assets/css/footerfordoc.css">    
+    <link rel="stylesheet" href="/assets/css/footerfordoc.css">
     <!-- googleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,8 @@
 </head>
 <body>
     {% include navbarfordoc.html %}
+            {% include mobilenav.html %}
+<script src="/assets/js/navbarfordoc.js"></script>
     <div class="main_containt">
         <div class="banner">
             <h1>{{ page.categories }}</h1>

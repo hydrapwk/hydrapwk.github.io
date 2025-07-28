@@ -18,9 +18,10 @@
 </head>
 <body>
 	{% include navbar.html %}
+        {% include mobilenav.html %}
+            <script src="/assets/js/main.js"></script>
+
     <div class="main_docs">
-        <section class="banner">
-        </section>
         <div class="inside_docs">
             <div class="list_docs">
                 <ul>
@@ -74,21 +75,6 @@
             </div>
         </div>
     </div>
-                <ul class="list">
-                    {% for post in site.cool limit:4 %}
-                    <li id="card_blog">
-                        <a href="{{ post.url }}">
-                        <img src="{{ post.thumbnail }}">
-                        <div class="inside_paraghraph">
-                            <span style="font-weight: 700;">{{ post.date | date: "%-d %B %Y" }}, By {{ post.author }}</span>
-                            <h1>{{ post.title }}</h1>
-                            <p>{{ post.description }}</p>
-                        </div>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-
 </body>
 {% include footer.html %}
 </html>

@@ -566,7 +566,7 @@ body {
 .second_containt {
     width: 100%;
     height: 100%;
-    min-height: 80dvh;
+    min-height: 70dvh;
     background: #00040C;
     background: linear-gradient(324deg,rgba(0, 4, 12, 1) 0%, rgba(3, 6, 13, 1) 50%, rgba(22, 28, 40, 1) 100%);
     display: flex;
@@ -593,6 +593,13 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.layer1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* endMain */
 
@@ -624,8 +631,10 @@ body {
     height: 100%;
     min-height: 90dvh;
     justify-content: left;
+    align-items: center;
     display: flex;
-    padding-top: 200px;
+    padding: 20px;
+    padding-top: 70px;
 }
 
 #inside_banner img {
@@ -637,16 +646,16 @@ body {
 }
 #inside_banner h1 {
     color: white;
-    font-size: 2.8em;
+    font-size: 1.8em;
     max-width: fit-content;
-    font-weight: 750;
-    width: 60%;
+    font-weight: bolder;
+    width: 100%;
 }
 
 #inside_banner p {
     color: white;
     width: 95%;
-    font-size: 1.4em;
+    font-size: 1.1em;
     max-width: fit-content;
     margin: 20px;
     margin-left: 0;
@@ -660,14 +669,17 @@ body {
     right: 0;
     bottom: 0;
     pointer-events: none;
+    width: 300px;
+    border-radius: 30px;
+    margin: auto;
 }
 
 .card_video {
     padding: 20px;
     background-color: white;
     overflow: hidden;
-    width: 800px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -696,7 +708,7 @@ body {
     font-size: 2.5em;
 }
 .inside_video {
-    width: 70%;
+    width: 90%;
     height: 70%;
     background-color: white;
     display: flex;
@@ -707,6 +719,7 @@ body {
     border-radius: 50px;
     padding-left: 20px;
     align-items: center;
+    flex-direction: column;
 }
 
 .video_button i {
@@ -748,7 +761,7 @@ body {
     color: black;
     font-weight: 600;
     letter-spacing: -1px;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 
 .video_button a:hover {
@@ -782,7 +795,7 @@ body {
     font-weight: 600;
     width: 100%;
     max-width: fit-content;
-    font-size: 1.1em;
+    font-size: 0.8em;
     padding-top: 5px;
     letter-spacing: -1px;
     padding-bottom: 5px;
@@ -813,7 +826,7 @@ body {
     font-weight: 600;
     width: 100%;
     max-width: fit-content;
-    font-size: 1.1em;
+    font-size: 0.8em;
     padding-top: 5px;
     letter-spacing: -1px;
     padding-bottom: 5px;
@@ -1022,6 +1035,34 @@ body {
 
 .separate a:hover {
     background-color: maroon;
+}
+
+.inside_term {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.inside_term p {
+    font-family: monospace;
+    text-align: left;
+    font-size: 0.3em;
+
+}
+
+.inside_term h3 {
+    font-family: monospace;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+
 }
 
 }

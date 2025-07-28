@@ -18,7 +18,7 @@
     font-weight: normal;
 }
 
-header {
+.desktop_nav {
     display: block;
     padding: 10px;
     padding-left: 0;
@@ -97,99 +97,156 @@ header {
 
 
 
-@media only screen and (max-width: 600px) {
-.navlogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Inter", sans-serif;
-    font-size: 0.7em;
-    border: 1px solid transparent;
+
+ @media only screen and (max-width: 768px) {
+    .desktop_nav {
+        display: none;
+    }
+ }
+
+
+.nav {
+  padding: 0 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: white;
+  transition: .3s;
+  font-family: "Inter", sans-serif;
+  padding-top: 0;
+}
+
+.nav.active {
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.nav.hide {
+   top: -200px !important;
+}
+
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+flex-wrap: wrap;
+  background-color: white;
+  padding: 2px 0;
 
 }
 
-.navlogo:hover {
-    border: 1px solid black;
-    border-style: dotted;
+.brand {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
 }
-.navlogo h1 {
-    font-weight: normal;
-}
-
-header {
-    display: block;
-    padding: 0;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    z-index: 9999;
-    justify-content: space-evenly;
+.brand span {
+  color: black
 }
 
-.navlist {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    background-color: transparent;
+.brand img {
+    width: 40px;
 }
 
-.navlist img {
-    width: 30px;
-    background-color: transparent;
-    display: block;
-    align-items: flex-start;
-    align-items: flex-start;
+.nav-burger {
+  width: 30px;
+  cursor: pointer;
 }
 
-.flex {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  visibility: hidden;
+  margin-top: 10px;
 }
 
-.flex li {
-    list-style-type: none;
-    text-decoration: none;
+.nav-menu a {
+  width: 100%;
+  margin: 5px 0;
+  color: black;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 5px 0;
 }
 
-.flex a {
-    color: black;
-    font-weight: normal;
-    transition: all ease 400ms;
-    text-decoration: none;
-    border: 1px solid transparent;
-    letter-spacing: -1px;
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+.nav-menu a:nth-child(6) {
+  font-weight: bold;
 }
 
-.flex a:hover {
-    border: 1px solid black;
-    border-style: dotted;
-    color: black;
-    transition: all ease 400ms;
+
+.nav-menu.active {
+  max-height: 200rem;
+  opacity: 1;
+  visibility: visible;
 }
 
-.flex i {
-    font-weight: normal;
-    font-size: 1.3em;
+.nav-menu-dekstop {
+  display: none;
 }
 
-#get-button {
-    letter-spacing: -1px;
-    background-color: #ff0000;
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    border-radius: 5px;
-    font-weight: 700;
-}
+@media screen and (min-width: 968px) {
+    .nav-burger {
+      display: none;
+    }
 
-#get-button:hover {
-    background-color: maroon;
-}
+    .nav {
+        display: none;
+    }
+
+    .nav-menu {
+      width: inherit;
+      display: flex;
+      flex-direction: row;
+      max-height: inherit;
+      opacity: inherit;
+      -webkit-transition: inherit;
+      -o-transition: inherit;
+      transition: inherit;
+      visibility: inherit;
+      margin-top: inherit;
+    }
+
+    .nav-menu a {
+      padding: 10px 10px;
+      margin: 0 10px;
+      width: inherit;
+      cursor: pointer;
+      display: inherit;
+      position: inherit;
+      display: flex;
+      position: relative;
+    }
+
+    /* Jika ingin menu di dekstop ada 3 */
+    .nav-menu a:nth-child(5),
+    .nav-menu a:nth-child(6) {
+      display: none;
+    }
 
 }

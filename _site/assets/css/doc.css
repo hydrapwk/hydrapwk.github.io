@@ -353,3 +353,43 @@ footer {
     font-weight: normal;
     color: blue;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .right_sidebar {
+        display: none;
+    }
+
+    .left_sidebar {
+        display: none;
+    }
+
+    .main_containt {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100dvh;
+        overflow-y: auto;
+        background-color: #fff;
+        color: #151515;
+        padding: 10px;
+}
+
+.main_containt img {
+    width: 100%;
+}
+
+pre {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: gray;
+    box-shadow: inset 0 0 10px;
+    overflow-x: auto;
+}
+
+}

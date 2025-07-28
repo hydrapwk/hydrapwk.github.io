@@ -253,7 +253,7 @@ footer {
 }
 #logo img {
     background-color: transparent;
-    margin-bottom: -50px;
+    margin-bottom: -90px;
     pointer-events: none;
     width: 50%;
 }
@@ -262,6 +262,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     background-color: transparent;
+    flex-direction: column;
 }
 
 #logo h1 {
