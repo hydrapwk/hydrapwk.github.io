@@ -120,11 +120,13 @@ footer {
     .desktop_nav {
         display: none;
     }
+
+    header {
+        display: none;
+    }
  }
 
-header {
-    display: none;
-}
+
 
 .nav {
   padding: 0 15px;
