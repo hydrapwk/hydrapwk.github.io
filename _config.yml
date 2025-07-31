@@ -43,7 +43,7 @@ collections:
     output: true
   policy:
     output: true
-  troube:
+  trouble:
     output: true
 
 # Exclude from processing.
