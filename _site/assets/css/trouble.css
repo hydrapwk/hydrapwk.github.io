@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_containt {
+    width: 100%;
+    height: 100%;
+    min-height: 50dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside_trouble {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.list li {
+    font-family: monospace;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+.list a {
+    color: #6488ea;
+    font-family: "Inter", sans-serif;
+}
+
+.list h1 {
+    font-weight: normal;
+}
