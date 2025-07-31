@@ -10,7 +10,7 @@ update: 2025-07-31 09:47:00 +0700
 
 # HydraPWK can't read USB
 
-This is issues This issue was raised from the issue [#3](https://github.com/hydrapwk/hydrapwk/issues/3) report.
+This issue was raised from the issue [#3](https://github.com/hydrapwk/hydrapwk/issues/3) report.
 first one we're very sorry because not including `important` part on build!.
 
 
