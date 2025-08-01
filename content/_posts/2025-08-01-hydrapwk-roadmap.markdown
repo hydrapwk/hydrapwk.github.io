@@ -11,7 +11,7 @@ Today in HydraPWK post, in this post we will discuss about whats next you can sa
 
 # Development ongoing
 
-Last week we've been released [HydraPWK 2025.1.6.5](), in that's release (post) we're announcing about new device support such TvBox.
+Last week we've been released [HydraPWK 2025.1.6.5](https://hydrapwk.github.io/blog/hydrapwk-2025.1.6.5-release), in that's release (post) we're announcing about new device support such TvBox.
 
 # new build image (plan)
 
