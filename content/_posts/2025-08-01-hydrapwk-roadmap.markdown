@@ -20,7 +20,7 @@ So we're decide (planning) about new image build, every week or every month to f
 And thank you for BluetechWolf! For your report! And I'm very sorry about that's issues!.
 
 # Troubleshoot pages.
-we've been make [Troubleshoot Pages](/doc/troubleshot/), that's fixed and issues raised from [HydraPWK Issues](https://github.com/hydrapwk/hydrapwk/issues).
+we've been make [Troubleshoot Pages](/doc/troubleshot), that's fixed and issues raised from [HydraPWK Issues](https://github.com/hydrapwk/hydrapwk/issues).
 
 
 ![Roadmap](/assets/graphics/post_graphics/roadmap-2025/step.png)
