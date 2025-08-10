@@ -51,7 +51,7 @@ Or not you can click applications launcher and type "Install HydraPWK"
 In this step you must have Installation welcome screen may will like this.
 > PS: Different Hydra Version Different UI.
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/01-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/01-calamares.png)
 
 > You can choise your language (default is American english).
 
@@ -64,20 +64,20 @@ In this step you may will see like this.
 
 > You can set your default <b>region</b> and <b>timezone</b>
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/02-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/02-calamares.png)
 
 
 ### 2.3 Hydra calamares - Keyboard.
 
 In this step you may will see like this. just choose your keyboard setup configuration.
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/03-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/03-calamares.png)
 
 ### 2.4 Hydra calamares - Partitions.
 
 > Pls read carefully this tutorial for <b>SINGLE BOOT</b> so all data on your computer will <b>Wipe/formated</b>.
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/04-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/04-calamares.png)
 
 
 ### 2.5 Hydra calamares - User setup.
@@ -90,7 +90,7 @@ login name: hydra
 yourcomputername: hydracomputer
 password: toor</b>
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/05_user_setup_bt.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/05_user_setup_bt.png)
 
 ### 2.6 Hydra calamares - Confirmation.
 
@@ -100,18 +100,18 @@ This is the last step, you may will seen.
 
 after you sure what are you choise just click <b>install</b>.
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/06-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/06-calamares.png)
 
 ### 2.7 Hydra calamares - Installation proccess.
 
 > Wait until installation done, after that you can click finish and your computer automatically reboot, when your computer reboot you can unplug installation media!.
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/07-calamares.png)
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/08-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/07-calamares.png)
+![HydraPWK calamares](/assets/doc_assets/installation_graphics/calamares/08-calamares.png)
 
 
 ### End
 
 You can reboot and dont forgot to unplug your Bootable Media
 
-![Hydra calamares](/assets/doc_assets/installation_graphics/calamares/grub-done.png)
+![HydraPWK Installation done](/assets/doc_assets/installation_graphics/calamares/grub-done.png)

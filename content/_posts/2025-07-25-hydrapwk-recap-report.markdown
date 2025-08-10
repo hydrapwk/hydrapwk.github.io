@@ -14,7 +14,7 @@ The Visual graphic below will provide about the changes for three years over tim
 
 > The bigger the number or percentage, the bigger the change.
 
-![](/assets/graphics/post_graphics/hydrapwk-recap-2025/hydrapwk-chart-graph.jpg)
+![HydraPWK Graph](/assets/graphics/post_graphics/hydrapwk-recap-2025/hydrapwk-chart-graph.jpg)
 
 ## 2023
 - BlackTrack 2.0 sate - first release not much changes only ISO and desktop provide.

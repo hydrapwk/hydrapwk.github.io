@@ -54,19 +54,19 @@ Love you all!
 
 # dump1090-fa
 
-![](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/dump1090-fa.png)
+![HydraPWK Tools Dump1090-fa, Pie aware](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/dump1090-fa.png)
 
 # Openxc Vehicle simulator
 
-![](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/openxc.png)
+![HydraPWK Openxc Simulator](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/openxc.png)
 
 # ICSIM
 
-![](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/icsim.png)
+![HydraPWK tools ICSIM](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/icsim.png)
 
 # mil-std-1553-bus-analyzer
 
-![](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/mil-std-1553.png)
+![HydraPWK, Mil Bus analayzer](/assets/graphics/post_graphics/hydrapwk-2025.1.6.5/mil-std-1553.png)
 
 
 # RT kernel
@@ -92,4 +92,4 @@ We are currently adapting HydraPWK to new platforms, such as embedded devices an
 | Mobile | Platform | Architecture | Status |
 | -------- | ------- | ------------ | ------ |
 | Rootless | Termux | Aarch64 | Alpha |
-| Root | Rooted device | Aarch64 | Alpha | 
+| Root | Rooted device | Aarch64 | Alpha |
