@@ -18,17 +18,7 @@
 
     <div class="main_containt">
         <section class="inside_trouble">
-            <ul class="list">
-                {% for post in site.trouble %}
-                <li id="card_blog">
-                    <a href="{{ post.url }}">
-                    <div class="inside_paraghraph">
-                        <h1>{{ post.title }}</h1>
-                    </div>
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
+            {{ content }}
         </section>
     </div>
     {% include footer.html%}

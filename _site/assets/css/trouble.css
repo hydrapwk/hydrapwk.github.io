@@ -12,17 +12,17 @@ body {
 .main_containt {
     width: 100%;
     height: 100%;
-    min-height: 50dvh;
+    min-height: 70dvh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .inside_trouble {
-    width: 70%;
+    width: 90%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-color: transparent;
 }
@@ -46,5 +46,46 @@ body {
 }
 
 .list h1 {
+    font-weight: normal;
+}
+
+
+.inside_trouble table {
+    font-family: "Inter", sans-serif;
+    table-layout: fixed;
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid none;
+}
+
+.inside_trouble th {
+    border: 1px solid none;
+}
+.inside_trouble td, th, {
+    border: 1px solid none;
+    padding: 38px;
+}
+
+.inside_trouble tr:nth-child(even){background-color: whitesmoke; color: black; font-weight: normal;}
+
+.inside_trouble tr:hover {background-color: whitesmoke; color: gray;}
+
+.inside_trouble td {
+    padding: 10px;
+    border: 1px solid none;
+    color: #4d4d4d;
+}
+.inside_trouble th {
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #202122;
+    color: whitesmoke;
+}
+
+.inside_trouble td a {
+    color: #1e1e1e;
     font-weight: normal;
 }
