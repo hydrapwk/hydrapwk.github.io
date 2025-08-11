@@ -71,7 +71,7 @@ Yup! in our last post this week we're said still developing HydraPWK for TvBox! 
 
 I'm very happy, i just seen some content / article reviewing HydraPWK! here is!
 
-- [iguru.gr](https://iguru.gr/syllogi-ergaleion-open-source-intelligence-osint/)
+- [iguru.gr](https://iguru.gr/hydrapwk-scan-stress-test-exploitation-cracking-reversing-forensics/)
 - [gladilov.org](https://gladilov.org.ru/blog/all/new-virtual-os-22-07-2025/)
 - [Nano11XDEV](https://www.bilibili.com/video/BV14pbXzJE5J/)
 
