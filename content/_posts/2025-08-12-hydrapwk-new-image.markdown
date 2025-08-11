@@ -1,6 +1,6 @@
 ---
 layout: blog-read
-title: "HydraPWk 2025.01.6.5.250806258"
+title: "HydraPWK 2025.01.6.5.250806258"
 date: 2025-08-12 05:24:00 +0700
 author: Joe
 thumbnail: /assets/graphics/post_graphics/hydrapwk-2025-01.6.5.250806258/hydrawpk-2025-update-image.png
