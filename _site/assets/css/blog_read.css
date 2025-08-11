@@ -243,9 +243,9 @@ body {
 }
 
 
-code {
-  overflow-x: auto;
-  white-space: pre;
+.highlight pre {
+    width: 100%;
+    overflow-x: auto;
 }
 
 blockquote {
