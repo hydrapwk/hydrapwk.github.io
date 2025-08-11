@@ -244,7 +244,8 @@ body {
 
 
 code {
-    overflow-x: auto;
+  overflow-x: auto;
+  white-space: pre;
 }
 
 blockquote {
