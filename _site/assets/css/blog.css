@@ -125,3 +125,150 @@ body {
     padding-bottom: 10px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+.main_containt {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/graphics/blog_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 30dvh;
+}
+
+.banner h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+.list_blog {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: transparent;
+}
+
+.blog li {
+    width: 100%;
+    list-style: none;
+}
+.inside_blog {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    padding:0;
+}
+
+.blog {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#card_blog {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    transition: all ease 360ms;
+}
+
+#card_blog img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#card_blog h1 {
+    border-bottom: 2px solid red;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 40px;
+    font-size: 1.5em;
+}
+
+.inside_paraghraph {
+    padding: 20px;
+}
+
+.inside_paraghraph p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.inside_paraghraph span {
+    color: red;
+}
+
+#card_blog:hover {
+    transition: none;
+    transform: none;
+}
+
+#button {
+    background-color: red;
+    color: white;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+}
