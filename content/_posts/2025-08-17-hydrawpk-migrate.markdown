@@ -1,4 +1,5 @@
----                                                         layout: blog-read
+---
+layout: blog-read
 title: "HydraPWK Migrate From Trixie to Forky - new community"
 date: 2025-08-17 15:33:00 +0700
 author: Joe
