@@ -23,7 +23,7 @@ HydraPWK is Open-source Linux Distribution based on `Debian GNU/Linux <debian.or
 ### Open-source
 This project is Open-source, based on `Debian GNU/Linux <debian.org>` under DFSG license.
 
-Don't worry about security, you can always check our sources
+<i>Don't worry about security, you can always check our sources.<i>
 
 ### How this is work?
 This project is `different` from another project, We emphasize this project for real-time pentesting, encouraging it to help red-team experts to perform physical pentesting.
