@@ -474,17 +474,14 @@ body {
 .separate a {
     text-decoration: none;
     padding: 30px;
-    background-color: red;
+    background-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
     font-weight: 700;
     font-size: 1.0em;
-    transition: all ease 260ms;
-}
-
-.separate a:hover {
-    background-color: maroon;
+    border: 2px solid white;
+    border-radius:20px;
 }
 
 .term-content {
@@ -1036,11 +1033,8 @@ body {
     color: white;
     font-weight: 700;
     font-size: 1.0em;
+    border-radius: 15px;
     transition: all ease 260ms;
-}
-
-.separate a:hover {
-    background-color: maroon;
 }
 
 .inside_term {
