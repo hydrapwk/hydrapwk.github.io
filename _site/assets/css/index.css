@@ -473,15 +473,17 @@ body {
 
 .separate a {
     text-decoration: none;
-    padding: 30px;
     background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-weight: 700;
     font-size: 1.0em;
-    border: 2px solid white;
-    border-radius:10px;
+    transition: all ease 260ms;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 
 .term-content {
