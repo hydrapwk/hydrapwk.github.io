@@ -464,7 +464,7 @@ body {
     background-color: black;
     background-image: url("/assets/graphics/hydrapwk-cloud.png");
     display: flex;
-    background-size: 70%;
+    background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
