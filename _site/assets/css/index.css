@@ -473,7 +473,7 @@ body {
 
 .separate a {
     text-decoration: none;
-    background-color: black;
+    background-color: transparent;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -1028,15 +1028,17 @@ body {
 
 .separate a {
     text-decoration: none;
-    padding: 30px;
-    background-color: red;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     font-weight: 700;
     font-size: 1.0em;
-    border-radius: 15px;
     transition: all ease 260ms;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 
 .inside_term {
