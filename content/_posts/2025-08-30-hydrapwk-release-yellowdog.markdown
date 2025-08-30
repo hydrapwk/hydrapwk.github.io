@@ -25,7 +25,7 @@ we will migrate completely to the new base.
 - kernel - [updating kernel to version 6.16](#kernel-update)
 - can-j19399 - [new pre-built can-j19399 module](#kernel-update)
 - separate metapackages - [Remove hydrapwk-default-tools from hydrapwk-defaults](#separate-metapackages)
-- expanding impacket library - [Expanding impacket library (impacket-*)[#impacket library]
+- expanding impacket library - [Expanding impacket library impacket-*](#impacket-library)
 
 # Menu refresh
 - 01-Reconnaise
