@@ -16,7 +16,9 @@ The list of tools below is only taken from the official HydraPWK repository.
 | squarephish | [packages/squarephish](https://gitlab.com/hydrapwk/packages/squarephish) | [secureworks/squarephish](https://github.com/secureworks/squarephish) | [Apache-2.0](https://github.com/secureworks/squarephish?tab=Apache-2.0-1-ov-file) |<span class="red">will update to gen2</span> |
 | Sherlock | [packages/sherlock](https://gitlab.com/hydrapwk/packages/sherlock) | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | [MIT](https://github.com/sherlock-project/sherlock?tab=MIT-1-ov-file) |<span class="red">hold</span> |
 | exploitdb | [packages/exploitdb](https://gitlab.com/hydrapwk/packages/exploitdb) | [exploit-database/exploitdb](https://gitlab.com/exploit-database/exploitdb) | [GPL-2.0 or later](https://gitlab.com/exploit-database/exploitdb/-/blob/main/LICENSE.md) | <span class="green">2025.08.27+hydrapwk2</span> |
+| setoolkit | [packages/setoolkit](https://gitlab.com/hydrapwk/packages/setoolkit) | [trustedsec/social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit) | [Copyright 2020, The Social-Engineer Toolkit (SET) by TrustedSec, LLC All rights reserved. (Please check) ](https://github.com/trustedsec/social-engineer-toolkit/blob/master/readme/LICENSE) | <span class="green">8.0.3+hydrapwk3</span> |
 | NetExec | [packages/netexec](https://gitlab.com/hydrapwk/packages/netexec) | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | [BSD-2-Clause](https://github.com/Pennyw0rth/NetExec?tab=BSD-2-Clause-1-ov-file) |<span class="green">1.4.0+hydrapwk1</span> |
+| modpoll | [packages/modpoll](https://gitlab.com/hydrapwk/packages/modpoll) | [gavinying/modpoll](https://github.com/gavinying/modpoll) | [Copyright (c) 2021-2024, Ying Shaodong, MIT License (Please check)](https://github.com/gavinying/modpoll/blob/master/LICENSE) | <span class="green">1.5.0+hydrapwk1</span> |
 | python3-impacket | [packages/impacket](https://gitlab.com/hydrapwk/packages/impacket) | [fortra/impacket](https://github.com/fortra/impacket) | [The Apache Software License, Version 1.1 Modifications by Fortra](https://github.com/fortra/impacket?tab=License-1-ov-file) | <span class="green">0.12.0-3+hydrapwk4</span> |
 | volatility3 | [packages/volatility3](https://gitlab.com/hydrapwk/packages/volatility3) | [volatilityfoundation/volatility3](https://github.com/volatilityfoundation/volatility3) | [Volatility Software License Version 1.0](https://github.com/volatilityfoundation/volatility3/blob/develop/LICENSE.txt) | <span class="green">2.26.2+hydrapwk2</span> |
 | radare2 | [packages/radare2](https://gitlab.com/hydrapwk/packages/radare2) | [radare/radare2](https://github.com/radare/radare2) | [LGPL-3.0-only/MIT/BSD-3-Clause/Apache-2.0](https://github.com/radareorg/radare2?tab=License-1-ov-file) |<span class="green">5.9.8+dfsg-2</span> |
@@ -41,6 +43,10 @@ The list of tools below is only taken from the official HydraPWK repository.
 | nishang | [packages/nishang](https://gitlab.com/hydrapwk/packages/nishang) | [samratashok/nishang](https://github.com/samratashok/nishang) | [Copyright (C) 2015  Nikhil "SamratAshok" Mittal (Please check)](https://github.com/samratashok/nishang/blob/master/LICENSE) | <span class="green">0.7.6-2</span> |
 | cupp | [packages/cupp](https://gitlab.com/hydrapwk/packages/cupp) | [Mebus/cupp](https://github.com/Mebus/cupp) | [GPL-3.0](https://github.com/Mebus/cupp/blob/master/LICENSE) | <span class="red">hold</span> |
 | bully | [packages/bully](https://gitlab.com/hydrapwk/packages/bully) | [kimocoder/bully](https://github.com/kimocoder/bully) | [GPL-3.0](https://github.com/kimocoder/bully/blob/master/LICENSE.md) | <span class="green">1.4.00-2</span> |
+
+
+
+
 
 <!--
 | packages | [packages/](https://gitlab.com/hydrapwk/packages/) | [](https://github.com/) | []() | <span class="green">ver</span> |
