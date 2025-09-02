@@ -29,7 +29,6 @@ The list of tools below is only taken from the official HydraPWK repository.
 | johnny | [packages/johnny](https://gitlab.com/hydrapwk/packages/johnny) | [openwall/johnny](https://github.com/openwall/johnny) | [Please check Copyright](https://github.com/openwall/johnny?tab=License-1-ov-file) | <span class="green">2.2-hydrapwk1</span> |
 | cupp | [packages/cupp](https://gitlab.com/hydrapwk/packages/cupp) | [Mebus/cupp](https://github.com/Mebus/cupp) | [GPL-3.0](https://github.com/Mebus/cupp?tab=GPL-3.0-1-ov-file) | <span class="green">3.3.0-hydrapwk1</span> |
 | enum4linux | [packages/enum4linux](https://gitlab.com/hydrapwk/packages/enum4linux) | [CiscoCXSecurity/enum4linux](https://github.com/CiscoCXSecurity/enum4linux) | [GPL-2.0 (Please also check other Term and Policy)](https://github.com/CiscoCXSecurity/enum4linux?tab=License-1-ov-file) | <span class="green">0.9.2+hydrapwk3</span> |
-
 | python3-impacket | [packages/impacket](https://gitlab.com/hydrapwk/packages/impacket) | [fortra/impacket](https://github.com/fortra/impacket) | [The Apache Software License, Version 1.1 Modifications by Fortra](https://github.com/fortra/impacket?tab=License-1-ov-file) | <span class="green">0.12.0-3+hydrapwk4</span> |
 
 <!--
