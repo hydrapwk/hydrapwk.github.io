@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_containt {
+    width: 100%;
+    height: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside_trouble {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 150px;
+    flex-direction: column;
+}
+
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list li {
+    font-family: monospace;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+.list a {
+    color: #6488ea;
+    font-family: "Inter", sans-serif;
+}
+
+.list h1 {
+    font-weight: normal;
+}
+
+
+.inside_trouble table {
+    font-family: "Inter", sans-serif;
+    table-layout: fixed;
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.inside_trouble th {
+    border: 1px solid transparent;
+}
+.inside_trouble td, th {
+    border: 1px solid transparent;
+    padding: 38px;
+}
+
+.inside_trouble tr:nth-child(even){background-color: whitesmoke; color: black; font-weight: normal;}
+
+.inside_trouble tr:hover {background-color: whitesmoke; color: gray;}
+
+.inside_trouble td {
+    padding: 20px;
+    border: 1px solid none;
+    color: #4d4d4d;
+}
+.inside_trouble th {
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.773);
+    font-weight: normal;
+    text-shadow: rgba(0, 0, 0, 0.407) 1px 0 10px;
+}
+
+.inside_trouble td a {
+    color: #1e1e1e;
+    font-weight: normal;
+}
+
+.my-custom-class {
+    background-color: red;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: #FFBF00;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 2.6em;
+    color: red;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+p {
+    color: black;
+    font-family: "Inter", sans-serif;
+}

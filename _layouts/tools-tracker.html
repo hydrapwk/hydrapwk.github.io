@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+{% include favicon.html %}
+    <link rel="stylesheet" href="/assets/css/tools-tracker.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+</head>
+<body>
+    {% include navbar.html %}
+
+    <div class="main_containt">
+        <section class="inside_trouble">
+            {{ content }}
+        </section>
+    </div>
+    {% include footer.html%}
+</body>
+</html>
