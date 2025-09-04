@@ -10,6 +10,7 @@ The list of tools below is only taken from the official HydraPWK repository.
 
 | PACKAGE | SOURCES | UPSTREAM | LICENSE | STATUS |
 | ------- | ------- | ------- | ------- | ------- |
+| ghidra | [packages/ghidra](https://gitlab.com/hydrapwk/packages/ghidra) | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | [Please check](https://github.com/NationalSecurityAgency/ghidra/tree/master/licenses) | <span class="green">11.4.2+hydrapwk1</span> |
 | Ufonet | [packages/ufonet](https://gitlab.com/hydrapwk/packages/ufonet) | [epsylon/ufonet](https://github.com/epsylon/ufonet) | [GPLv3](https://github.com/epsylon/ufonet/blob/master/docs/LICENSE) | <span class="red">Waiting to drop</span> |
 | sqlmap | [packages/sqlmap](https://gitlab.com/hydrapwk/packages/sqlmap) | [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) | [sqlmap is (C) 2006-2025 Bernardo Damele Assumpcao Guimaraes, Miroslav Stampar. and GPL-2.0 (Please check)](https://github.com/sqlmapproject/sqlmap/blob/master/LICENSE) | <span class="red">Waiting to drop</span> |
 | Nikto | [packages/nikto](https://gitlab.com/hydrapwk/packages/nikto) | [sullo/nikto](https://github.com/sullo/nikto) | [GPLv2](https://github.com/sullo/nikto?tab=License-1-ov-file) |<span class="red">drop</span> |
@@ -41,9 +42,7 @@ The list of tools below is only taken from the official HydraPWK repository.
 | pdf-parser | [packages/pdf-parser](https://gitlab.com/hydrapwk/packages/pdf-parser) | [blog.didierstevens.com/programs/pdf-tools/](https://blog.didierstevens.com/programs/pdf-tools/) | [Copyright didierstevens (Please check)](https://blog.didierstevens.com/programs/pdf-tools/) | <span class="green">0.7.12-hydrapwk1</span> |
 | mitmproxy | [packages/mitmproxy](https://gitlab.com/hydrapwk/packages/mitmproxy) | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | [MIT (Copyright (c) 2013, Aldo Cortesi.)](https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE) | <span class="green">8.1.1-4</span> |
 | nishang | [packages/nishang](https://gitlab.com/hydrapwk/packages/nishang) | [samratashok/nishang](https://github.com/samratashok/nishang) | [Copyright (C) 2015  Nikhil "SamratAshok" Mittal (Please check)](https://github.com/samratashok/nishang/blob/master/LICENSE) | <span class="green">0.7.6-2</span> |
-| cupp | [packages/cupp](https://gitlab.com/hydrapwk/packages/cupp) | [Mebus/cupp](https://github.com/Mebus/cupp) | [GPL-3.0](https://github.com/Mebus/cupp/blob/master/LICENSE) | <span class="red">hold</span> |
 | bully | [packages/bully](https://gitlab.com/hydrapwk/packages/bully) | [kimocoder/bully](https://github.com/kimocoder/bully) | [GPL-3.0](https://github.com/kimocoder/bully/blob/master/LICENSE.md) | <span class="green">1.4.00-2</span> |
-
 
 
 
