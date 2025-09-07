@@ -512,7 +512,7 @@ body {
 .inside_term p {
     font-family: monospace;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 0.8em;
 
 }
 
@@ -1019,7 +1019,7 @@ body {
     background-color: black;
     background-image: url("/assets/graphics/hydrapwk-cloud.png");
     display: flex;
-    background-size: 70%;
+    background-size: 100%;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
