@@ -10,7 +10,7 @@ The list of tools below is only taken from the official HydraPWK repository.
 
 | PACKAGE | SOURCES | UPSTREAM | LICENSE | STATUS |
 | ------- | ------- | ------- | ------- | ------- |
-| Sherlock | [packages/sherlock](https://gitlab.com/hydrapwk/packages/sherlock) | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | [MIT](https://github.com/sherlock-project/sherlock?tab=MIT-1-ov-file) |<span class="green">0.15.1-hydrapwk5 - unhold </span> |
+| Sherlock | [packages/sherlock](https://gitlab.com/hydrapwk/packages/sherlock) | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | [MIT](https://github.com/sherlock-project/sherlock?tab=MIT-1-ov-file) |<span class="green">0.15.1-hydrapwk5 - unhold (Active)</span> |
 | exploitdb | [packages/exploitdb](https://gitlab.com/hydrapwk/packages/exploitdb) | [exploit-database/exploitdb](https://gitlab.com/exploit-database/exploitdb) | [GPL-2.0 or later](https://gitlab.com/exploit-database/exploitdb/-/blob/main/LICENSE.md) | <span class="green">2025.09.02+hydrapwk2</span> |
 | kismet | [packages/kismet](https://gitlab.com/hydrapwk/packages/kismet) | [kismetwireless/kismet](https://github.com/kismetwireless/kismet) | [GPL-2.0 (Please check)](https://github.com/kismetwireless/kismet/blob/master/LICENSE) |<span class="green">2025.09-r1+hydrapwk1</span> |
 | squarephish | [packages/squarephish](https://gitlab.com/hydrapwk/packages/squarephish) | [secureworks/squarephish](https://github.com/secureworks/squarephish) | [Apache-2.0](https://github.com/secureworks/squarephish?tab=Apache-2.0-1-ov-file) |<span class="red">drop</span> |
