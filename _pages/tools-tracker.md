@@ -10,7 +10,9 @@ The list of tools below is only taken from the official HydraPWK repository.
 
 | PACKAGE | SOURCES | UPSTREAM | LICENSE | STATUS |
 | ------- | ------- | ------- | ------- | ------- |
-| NetExec | [packages/netexec](https://gitlab.com/hydrapwk/packages/netexec) | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | [BSD-2-Clause](https://github.com/Pennyw0rth/NetExec?tab=BSD-2-Clause-1-ov-file) |<span class="green">1.4.0-202516+hydrapwk1</span> |
+| caringcaribou | [packages/caringcaribou](https://gitlab.com/hydrapwk/packages/caringcaribou) | [CaringCaribou/caringcaribou](https://github.com/CaringCaribou/caringcaribou) | [GPL-3.0](https://github.com/CaringCaribou/caringcaribou/blob/master/LICENSE) | <span class="green">0.7+hydrapwk1</span> |
+| esptool | [packages/esptool](https://gitlab.com/hydrapwk/packages/esptool) | [espressif/esptool](https://github.com/espressif/esptool) | [GPL-2.0](https://github.com/espressif/esptool/blob/master/LICENSE) | <span class="green">5.0.2+hydrapwk1</span> |
+| NetExec | [packages/netexec](https://gitlab.com/hydrapwk/packages/netexec) | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | [BSD-2-Clause](https://github.com/Pennyw0rth/NetExec?tab=BSD-2-Clause-1-ov-file) |<span class="green">1.4.0+20250918hydrapwk1</span> |
 | Sherlock | [packages/sherlock](https://gitlab.com/hydrapwk/packages/sherlock) | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | [MIT](https://github.com/sherlock-project/sherlock?tab=MIT-1-ov-file) |<span class="green">0.15.1+hydrapwk6</span> |
 | exploitdb | [packages/exploitdb](https://gitlab.com/hydrapwk/packages/exploitdb) | [exploit-database/exploitdb](https://gitlab.com/exploit-database/exploitdb) | [GPL-2.0 or later](https://gitlab.com/exploit-database/exploitdb/-/blob/main/LICENSE.md) | <span class="green">2025.09.02+hydrapwk2</span> |
 | kismet | [packages/kismet](https://gitlab.com/hydrapwk/packages/kismet) | [kismetwireless/kismet](https://github.com/kismetwireless/kismet) | [GPL-2.0 (Please check)](https://github.com/kismetwireless/kismet/blob/master/LICENSE) |<span class="green">2025.09-r1+hydrapwk1</span> |
