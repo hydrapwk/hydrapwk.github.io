@@ -12,6 +12,7 @@ userupdate: https://github.com/me-joe
 categories: N
 update: 2025-09-30 06:02:00 +0700
 author: Joe
+editpage: https://github.com/hydrapwk/hydrapwk.github.io/blob/main/content/_tools/hydrapwk-tools-netexec.md
 ---
 
 NetExec (a.k.a nxc) is a network service exploitation tool that helps automate assessing the security of large networks.

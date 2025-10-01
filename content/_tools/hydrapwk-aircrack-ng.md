@@ -12,6 +12,7 @@ userupdate: https://github.com/me-joe
 categories: A
 update: 2025-09-30 06:02:00 +0700
 author: Joe
+editpage: https://github.com/hydrapwk/hydrapwk.github.io/blob/main/content/_tools/hydrapwk-aircrack-ng.md
 ---
 
 
