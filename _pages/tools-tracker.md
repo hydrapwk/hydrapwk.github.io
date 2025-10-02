@@ -10,6 +10,7 @@ The list of tools below is only taken from the official HydraPWK repository.
 
 | PACKAGE | SOURCES | UPSTREAM | LICENSE | STATUS |
 | ------- | ------- | ------- | ------- | ------- |
+| responder | [packages/responder](https://gitlab.com/hydrapwk/packages/responder) | [lgandx/Responder](https://github.com/lgandx/Responder) | [GPL-3.0](https://github.com/lgandx/Responder/blob/master/LICENSE) | <span class="green">3.1.7.0+hydrapwk1</span> |
 | seclists | [packages/seclists](https://gitlab.com/hydrapwk/packages/seclists) | [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists) | [MIT](https://github.com/danielmiessler/SecLists?tab=MIT-1-ov-file) |<span class="green">2025.3+hydrapwk1</span> |
 | NetExec | [packages/netexec](https://gitlab.com/hydrapwk/packages/netexec) | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | [BSD-2-Clause](https://github.com/Pennyw0rth/NetExec?tab=BSD-2-Clause-1-ov-file) |<span class="green">1.4.0+hydrapwk2</span> |
 | caringcaribou | [packages/caringcaribou](https://gitlab.com/hydrapwk/packages/caringcaribou) | [CaringCaribou/caringcaribou](https://github.com/CaringCaribou/caringcaribou) | [GPL-3.0](https://github.com/CaringCaribou/caringcaribou/blob/master/LICENSE) | <span class="green">0.7+hydrapwk1</span> |
@@ -46,6 +47,7 @@ The list of tools below is only taken from the official HydraPWK repository.
 | mitmproxy | [packages/mitmproxy](https://gitlab.com/hydrapwk/packages/mitmproxy) | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | [MIT (Copyright (c) 2013, Aldo Cortesi.)](https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE) | <span class="green">8.1.1-4</span> |
 | nishang | [packages/nishang](https://gitlab.com/hydrapwk/packages/nishang) | [samratashok/nishang](https://github.com/samratashok/nishang) | [Copyright (C) 2015  Nikhil "SamratAshok" Mittal (Please check)](https://github.com/samratashok/nishang/blob/master/LICENSE) | <span class="green">0.7.6-2</span> |
 | bully | [packages/bully](https://gitlab.com/hydrapwk/packages/bully) | [kimocoder/bully](https://github.com/kimocoder/bully) | [GPL-3.0](https://github.com/kimocoder/bully/blob/master/LICENSE.md) | <span class="green">1.4.00-2</span> |
+
 
 
 
