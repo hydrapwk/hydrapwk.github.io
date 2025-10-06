@@ -5,13 +5,13 @@ permalink: /doc/introduction/hydra-history
 comments: true
 desc: This documentation will tell you story about Hydra and BlackTrack.
 author: Joe
-update: 2025-07-28 06:02:00 +0700
+update: 2025-10-06 11:13:00 +0700
 ---
 
-> HydraPWK (Previously BlackTrack), is an self development project
+<!-- > HydraPWK (Previously BlackTrack), is an self development project 
 
 before we start thats 2023 i'm starting this project my age still 16/17 years old, and now im 18/19
-
+-->
 ### 2023 The Beginning.
 
 In 2023 Precisely on January 25, 2023 The founder hydrapwk(BlackTrack at that's time) @me-joe say in he telegram channel.
