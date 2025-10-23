@@ -252,9 +252,12 @@ body {
 blockquote {
     padding-left: 5px;
     border-left: 2px solid red;
+    padding-top: 0;
     font-style: italic;
-    margin: 5px;
+    margin: o;
     margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 

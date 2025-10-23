@@ -118,11 +118,10 @@ html, body {
 
 .containt-tools {
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: transparent;
     flex-direction: column;
     background-color: transparent;
 }
@@ -131,12 +130,15 @@ html, body {
     background-color: transparent;
     width: 80%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .tools-details img {
     max-width: 40%;
     height: auto;
     padding-bottom: 20px;
+    pointer-events: none;
 }
 
 
@@ -213,15 +215,8 @@ html, body {
 .tools-doc h1 {
     font-family: "Inter", serif;
     margin-bottom: 50px;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.129); */
 }
 
-.tools-doc h2 {
-    font-family: "Inter", serif;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.129);
-    padding-bottom: 5px;
-
-}
 
 .tools-doc span {
     font-family: "Inter", serif;
@@ -243,14 +238,18 @@ html, body {
 .tools-doc h2 {
     font-family: "Inter", serif;
     margin-bottom: 10px;
-    font-weight: normal;
-    font-size: 1.0em;
+    font-weight: 500;
+    font-size: 1.9em;
+    padding-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+    padding-bottom: 5px;
 }
 
 .tools-doc p {
     font-family: "Inter", serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #4d4d4d;
 }
 
 .this-page {
@@ -274,10 +273,27 @@ html, body {
     font-style: italic;
     display: flex;
     flex-direction: column;
+    color: gray;
 }
 
+.back_to_tools-list {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: purple;
+}
 
+.let-me-back {
+    margin-bottom: 50px;
+}
 
+p code.language-plaintext.highlighter-rouge {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
 
 
 
@@ -347,6 +363,7 @@ html, body {
     max-width: 40%;
     height: auto;
     padding-bottom: 20px;
+    pointer-events: none;
 }
 
 
