@@ -36,6 +36,8 @@ what's the different?
 as you can see the different between HydraPWK Logo 1.0
 and new logo (2.0), we made some changes as you can see bellow, like wings, and hydrapwk body...
 
+![HydraPWK Logo 2.0](/assets/graphics/post_graphics/hydrapwk-2025.03-apes/hydrapwk-logo-2.0.png)
+
 [Check more details](/doc/hydrapwk-policy-trademark)
 
 # New tools
