@@ -78,7 +78,7 @@ like we say before hydrapwk now is not just for pentesting
 
 # Tools doc
 
-so yeah we've been made [Tools documentation page](/doc/tools/hydrapwk) hydrapwk several weeks ago i guess, but yeah we still need to improvement to the Documentation...
+so yeah we've been made [Tools documentation page](/doc/tools) hydrapwk several weeks ago i guess, but yeah we still need to improvement to the Documentation...
 but ofc! You could contribute.
 how? The hydrapwk page is hosted by GitHub and Jekyll so you could easily edit the markdown, on the tools doc on the bottom left corner you will see `Edit this page` button, and you can click it!
 
