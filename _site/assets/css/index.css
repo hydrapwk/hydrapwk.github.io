@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+ ::-moz-selection {
+  color: white;
+  background: purple;
+}
+
+::selection {
+  color: white;
+  background: purple;
+}
+
 body {
     background-color: whitesmoke;
     margin: 0;
@@ -44,12 +54,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 80dvh;
-    background-color: transparent;
-    background-image: url(/assets/graphics/bg_circle.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-attachment: local;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,11 +70,7 @@ body {
     background-attachment: local;
     display: flex;
     justify-content: center;
-    background-color: black;
-    background-image: url('/assets/graphics/hydrapwk_site_banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
     top: 0;
     left: 0;
 }
@@ -80,32 +81,37 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: local;
-    width: 75%;
+    width: 85%;
     height: 100%;
     min-height: 90dvh;
-    justify-content: left;
     display: flex;
     padding-top: 200px;
+    justify-content: space-evenly;
 }
 
+.banner_paraghraph {
+    width: 90%;
+}
 #inside_banner img {
     width: 100%;
-    min-width: 500px;
+    min-width: 800px;
     max-width: fit-content;
     pointer-events: none;
-    filter: drop-shadow(0 0 0.75rem rgb(202, 7, 7));
+    filter: drop-shadow(purple);
+    filter: drop-shadow(0 0 0.75rem rgba(128, 0, 128, 0.224));
 }
 #inside_banner h1 {
-    color: white;
+    color: rgba(0, 0, 0, 0.824);
     font-size: 2.8em;
     max-width: fit-content;
     font-weight: 750;
-    width: 60%;
+    width: 90%;
+    text-shadow: 2px 2px 10px #00000031;
 }
 
 #inside_banner p {
-    color: white;
-    width: 50%;
+    color: rgba(0, 0, 0, 0.688);
+    width: 70%;
     font-size: 1.4em;
     max-width: fit-content;
     margin: 20px;
@@ -114,6 +120,7 @@ body {
     font-weight: 300;
     letter-spacing: -1px;
     font-family: "Inter", sans-serif;
+    text-shadow: 2px 2px 10px #00000031;
 }
 
 #industry_video {
@@ -216,14 +223,14 @@ body {
     color: white;
 }
 #trynow {
-    background-color: #EC0000;
-    border: 1px solid #EC0000;
+    background-color: purple;
+    border: 1px solid purple;
     color: white;
 }
 
 #trynow:hover {
-    background-color: darkred;
-    color: white;
+    background-color: white;
+    color: purple;
 }
 .content {
     position: fixed;
@@ -232,9 +239,9 @@ body {
 }
 #get {
     text-decoration: none;
-    background-color: red;
+    background-color: purple;
     color: white;
-    border: 2px solid red;
+    border: 2px solid purple;
     border-radius: 5px;
     transition: all ease 400ms;
     margin-right: 10px;
@@ -266,8 +273,8 @@ body {
     text-decoration: none;
     background-color: transparent;
     padding: 10px;
-    color: white;
-    border: 1px solid white;
+    color: purple;
+    border: 1px solid purple;
     border-radius: 5px;
     transition: all ease 400ms;
     font-weight: 600;
@@ -280,7 +287,7 @@ body {
 }
 
 #read a {
-    color: white;
+    color: purple;
     text-decoration: none;
     letter-spacing: -1px;
     font-weight: 600;
@@ -300,14 +307,13 @@ body {
 /* endBanner */
 
 #card {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 20px;
     border-radius: 5px;
-    border: black;
-    border-style: dotted;
-    color: white;
+    border:solid mediumpurple;
+    color: black;
     list-style: none;
     display: inline-block;
     transition: all ease 360ms;
@@ -326,29 +332,29 @@ body {
 }
 
 #card h1 {
-    color: red;
+    color: purple;
     padding: 0;
     border-bottom: 1px solid red;
     padding-bottom: 10px;
 }
-#card:hover {
+/* #card:hover {
     transition: all ease 360ms;
     transform: translateY(-10px);
     background-color: black;
     border: 1px solid red;
     border-style: dotted;
     box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.048);
-}
+} */
 
 #card p {
     width: 90%;
     background-color: transparent;
     letter-spacing: -1px;
 }
-#card:hover p {
+/* #card:hover p {
     color: white;
     text-align: left;
-}
+} */
 #card i {
     font-weight: normal;
     font-family: "Inter", sans-serif;
@@ -402,7 +408,7 @@ body {
 }
 
 .containt_blog b {
-    color: red;
+    color: purple;
 }
 #card_blog h1 {
     font-size: 1.3em;
@@ -493,7 +499,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 251, 251);
 }
 
 
@@ -526,15 +532,9 @@ body {
 }
 
 #release_button {
-    color: white;
+    color: rgba(128, 0, 128, 0.643);
     gap: 30px;
 }
-
-
-
-
-
-
 
 
 
@@ -773,14 +773,15 @@ body {
     color: white;
 }
 #trynow {
-    background-color: #EC0000;
-    border: 1px solid #EC0000;
+    background-color: purple;
+    border: 1px solid purple;
     color: white;
+
 }
 
 #trynow:hover {
-    background-color: darkred;
-    color: white;
+    background-color: transparent;
+    color: purple;
 }
 .content {
     position: fixed;
@@ -956,7 +957,7 @@ body {
 }
 
 .containt_blog b {
-    color: red;
+    color: purple;
 }
 #card_blog h1 {
     font-size: 1.3em;
