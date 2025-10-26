@@ -1,5 +1,5 @@
 ---
-layout: download
+layout: hydrapwk-download-purplizer
 title: HydraPWK | STANDARD HydraPWK AMD64 IMAGE
 permalink: /get/hydrapwk-standar
 comments: true
