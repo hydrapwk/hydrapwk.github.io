@@ -77,4 +77,14 @@ Finally you could start arkime.
 hydrapwk@hydrapwk:~$ sudo arkime-start
 ```
 
-if you want to start arkime again when you reboot, you don't need to setup configuration again just start the [elasticsearch](/doc/tools/hydrapwk-tools-elasticsearch) service and `arkime-start` (you could use applications menu)
+if you want to start arkime again when you reboot, you don't need to setup configuration again just start the [elasticsearch](/doc/tools/hydrapwk-tools-elasticsearch) service and `arkime-start` (you could use applications menu).
+
+## Upgrade instructions
+
+after you upgrade arkime via apt may you need to do this
+
+```
+hydrapwk@hydrapwk:~$ sudo /usr/lib/arkime/db/db.pl 127.0.0.1:9200 upgrade
+[...] # Update geo (recommended)
+hydrapwk@hydrapwk:~$ sudo /usr/lib/arkime/bin/arkime_update_geo.sh
+```
