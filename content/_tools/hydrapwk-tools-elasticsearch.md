@@ -15,6 +15,8 @@ author: Joe
 editpage: https://github.com/hydrapwk/hydrapwk.github.io/blob/main/content/_tools/hydrapwk-tools-elasticsearch.md
 ---
 
+> Elasticsearch on HydraPWK has been deprecated. (29-10-2025) LICENSE problem
+
 As default elasticsearch on hydrapwk disabling
 xpack security for making `hydrapwk team`
 easier to handle some tools which use elasticsearch
