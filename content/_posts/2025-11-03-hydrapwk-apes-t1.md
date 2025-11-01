@@ -20,7 +20,6 @@ We apologize for that, it was our (my) fault for not checking it more deeply.
 
 and we want to say something, we saw some posts and reviews of hydrapwk and we really respect that and are very happy, but we also don't want people to exaggerate about HydraPWK, we are really happy with people who want to review HydraPWK it means a lot to us, but please don't compare HydraPWK or make something that is `Clickbait` for example, `HydraPWK is better than this and that` we don't want that,,, we want honesty, that's what's best for this project ... and I would be happier if there was someone who criticized this project.
 
-
 # Affected packages.
 
 So yeah, because we replaced `elasticsearch` with `OpenSearch` and of course the tools that use that `Backend`.
@@ -34,9 +33,10 @@ Arkime, now arkime in hydrapwk has used `OpenSearch` as its backend as default.
 # What's new?
 
 - Xfce terminal colorscheme - Update colorscheme `hydrapwk-purplizer` for Xfce terminal.
-- OpenSearch - is an open-source, enterprise-grade search and observability suite that brings order to unstructured data at scale.
-- OpenSearch dashboard - data visualization tool designed to work with OpenSearch.
+- [OpenSearch](#opensearch-as-backend) - is an open-source, enterprise-grade search and observability suite that brings order to unstructured data at scale.
+- [OpenSearch dashboard](#opensearch-dashboards) - data visualization tool designed to work with OpenSearch.
 
+Please check our [tools documentation](/doc/tools/hydrapwk-tools) for configuration 
 # Purplizer colorscheme
 
 In this update we updated the hydrapwk-purplizer `colorscheme` (Xfce terminal), Maybe you will notice that if there is an `error message` it will not be visible (It blends in with the terminal background), So yeah once again it was our(my) fault, so we have updated it actually we don't need to announce this, but why not if you can announce it?.
