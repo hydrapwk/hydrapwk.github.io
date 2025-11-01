@@ -36,7 +36,7 @@ Arkime, now arkime in hydrapwk has used `OpenSearch` as its backend as default.
 - [OpenSearch](#opensearch-as-backend) - is an open-source, enterprise-grade search and observability suite that brings order to unstructured data at scale.
 - [OpenSearch dashboard](#opensearch-dashboards) - data visualization tool designed to work with OpenSearch.
 
-Please check our [tools documentation](/doc/tools/hydrapwk-tools) for configuration 
+Please check our [tools documentation](/doc/tools) for configuration 
 # Purplizer colorscheme
 
 In this update we updated the hydrapwk-purplizer `colorscheme` (Xfce terminal), Maybe you will notice that if there is an `error message` it will not be visible (It blends in with the terminal background), So yeah once again it was our(my) fault, so we have updated it actually we don't need to announce this, but why not if you can announce it?.
