@@ -10,7 +10,7 @@ tools-command:
 whoupdate: Joe
 userupdate: https://github.com/me-joe
 categories: A
-update: 2025-09-30 06:02:00 +0700
+update: 2025-11-04 14:24:00 +0700
 author: Joe
 editpage: https://github.com/hydrapwk/hydrapwk.github.io/blob/main/content/_tools/hydrapwk-tools-arkime.md
 ---
@@ -22,9 +22,9 @@ the default configuration file of Arkime on hydrapwk is in `/etc/arkime`, as def
 Please see configuration bellow to starting arkime for the first time
 
 
-## Starting elasticsearch
+## Starting OpenSearch
 
-As default `arkime` on hydrapwk using [elasticsearch](/doc/tools/hydrapwk-tools-elasticsearch) as backend, you need to start [elasticsearch](/doc/tools/hydrapwk-tools-elasticsearch) for bootstraping node, every you want to using `arkime`
+As default `arkime` on hydrapwk using [OpenSearch](/doc/tools/hydrapwk-tools-opensearch) as backend, you need to start [OpenSearch](/doc/tools/hydrapwk-tools-opensearch) for bootstraping node, every you want to using `arkime`
 
 
 ## Interface configuration
@@ -44,7 +44,7 @@ interface=wlp2s0
 
 ```
 
-## Update ipv6-geo
+## Update geo
 
 as default we doesn't including ipv6 on arkime-data, let arkime automatically download that
 
@@ -77,7 +77,7 @@ Finally you could start arkime.
 hydrapwk@hydrapwk:~$ sudo arkime-start
 ```
 
-if you want to start arkime again when you reboot, you don't need to setup configuration again just start the [elasticsearch](/doc/tools/hydrapwk-tools-elasticsearch) service and `arkime-start` (you could use applications menu).
+if you want to start arkime again when you reboot, you don't need to setup configuration again just start the [OpenSearch](/doc/tools/hydrapwk-tools-opensearch) service and `arkime-start` (you could use applications menu).
 
 ## Upgrade instructions
 
