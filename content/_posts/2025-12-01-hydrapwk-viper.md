@@ -1,7 +1,7 @@
 ---
 layout: blog-read
 title: "SIEM On your Backpack. HydraPWK 2025.04 Viper - hydrapwk-stealth, wazuh, kernel migration"
-date: 2025-12-1 06:28:00 +0700
+date: 2025-12-2 06:39:00 +0700
 author: Joe
 thumbnail: /assets/graphics/post_graphics/hydrapwk-viper/thumbnail.png
 permalink: /blog/:title
