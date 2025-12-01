@@ -213,6 +213,18 @@
                     </ul>
                 </div>
                 </div>
+                <div class="handle-me">
+                    <span>W</span>
+                <div class="card">
+                    <ul class="card-tools-list">
+                        {% for post in site.tools %}
+                        {% if post.categories contains "W" %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+                    </ul>
+                </div>
+                </div>
             </div>
     </div>
 </body>

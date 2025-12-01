@@ -5,5 +5,5 @@
 layout: index
 title: HydraPWK | The Opensource Swiss Army Knife for Industry.
 description: HydraPWK The Opensource Swiss Army Knife designed for Industry realm. based on Debian project
-release: /blog/hydrapwk-apes-t1
+release: /blog/hydrapwk-viper
 ---
