@@ -39,7 +39,7 @@ As default the network interface when you boot into `hydrapwk stealth` the inter
 
 # HydraPWK Stealth
 
-We may don't need to explaint again about hydrapwk-stealth, we just will give you the different between boot into hydrapwk-stealth and standard hydrapwk
+We may don't need to explain again about hydrapwk-stealth, we just will give you the different between boot into hydrapwk-stealth and standard hydrapwk
 
 _Boot into hydrapwk stealth_
 
@@ -53,7 +53,7 @@ _Boot into normal HydraPWK_
 
 So yeah we've been working 2-3 weeks to integrate wazuh for hydrapwk, and here is wazuh running natively on `hydrapwk` and it would be `SIEM on your backpack`
 
-> Note: This is not officially binary of wazuh (the binary build by HydraPWK)
+> Note: This is not an official binary of wazuh (the binary build by HydraPWK)
 
 Wazuh cannot init when you running hydrapwk on live mode you need to install hydrapwk on your machine (Please check our [hydrapwk wazuh documentation](/doc/tools/hydrapwk-tools-wazuh))
 
@@ -79,7 +79,7 @@ _HydraPWK Wazuh HIPA_
 
 # Update requirements
 
-here is, this is our recommandation (Minimal) hardware to run hydrapwk.
+here is, this is our recommendation (Minimal) hardware to run hydrapwk.
 
 | RAM | DISK | CPU |
 |:-----:|:---:|:-----:|
@@ -87,7 +87,7 @@ here is, this is our recommandation (Minimal) hardware to run hydrapwk.
 
 And you may asking why? Why hydrapwk need very much `Resources`?
 
-even if we're using `One task one tool` philosophy is not mean `HydraPWK` Lightweight, desktop environment we're using is minimal `xfce4` desktop and it's just take less than 1GB on idle (We cannot claim this, but we're sure).
+even if we're using `One task one tool` philosophy, it is not mean `HydraPWK` Lightweight, desktop environment we're using is minimal `xfce4` desktop and it's just take less than 1GB on idle (We cannot claim this, but we're sure).
 
 The problem is on the tools, which the tools we're bring is `Top tools` only industry standard tools no duplicate only `one task one tool`, so yeah we won't to compremise with it and ofc `HydraPWK` need a big requirements, much tools in `HydraPWK` is heavy tools for `Industry`
 
