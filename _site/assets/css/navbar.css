@@ -7,7 +7,6 @@
     font-family: "Inter", sans-serif;
     font-size: 0.7em;
     border: 1px solid transparent;
-
 }
 
 .navlogo:hover {
@@ -35,12 +34,13 @@
     justify-content: space-between;
     align-items: center;
     width: 70%;
+    height: 70px;
     margin: auto;
     background-color: transparent;
 }
 
 .navlist img {
-    width: 50px;
+    width: 70px;
     background-color: transparent;
     display: block;
     align-items: flex-start;
@@ -59,7 +59,7 @@
 }
 
 .flex a {
-    color: black;
+    color: #333333;
     font-weight: normal;
     transition: all ease 400ms;
     text-decoration: none;
