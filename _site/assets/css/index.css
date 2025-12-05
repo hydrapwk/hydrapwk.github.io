@@ -67,23 +67,23 @@ body {
 #banner {
     width: 100%;
     height: 100%;
+    background-color: black;
+    background: url('/assets/graphics/hydrapwk_banner.png');
     background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    background-color: white;
     top: 0;
     left: 0;
 }
 
 #inside_banner {
     background-color: transparent;
-    background-size: contain;
-    background-position: right;
     background-repeat: no-repeat;
-    background-attachment: local;
     width: 85%;
     height: 100%;
-    min-height: 90dvh;
+    min-height: 75dvh;
     display: flex;
     padding-top: 200px;
     justify-content: space-evenly;
@@ -101,7 +101,7 @@ body {
     filter: drop-shadow(0 0 0.75rem rgba(128, 0, 128, 0.224));
 }
 #inside_banner h1 {
-    color: rgba(0, 0, 0, 0.824);
+    color: white;
     font-size: 2.8em;
     max-width: fit-content;
     font-weight: 750;
@@ -110,7 +110,7 @@ body {
 }
 
 #inside_banner p {
-    color: rgba(0, 0, 0, 0.688);
+    color: white;
     width: 70%;
     font-size: 1.4em;
     max-width: fit-content;
@@ -223,8 +223,8 @@ body {
     color: white;
 }
 #trynow {
-    background-color: purple;
-    border: 1px solid purple;
+    background-color: black;
+    border: 1px solid black;
     color: white;
 }
 
@@ -242,7 +242,7 @@ body {
     background-color: purple;
     color: white;
     border: 2px solid purple;
-    border-radius: 5px;
+    border-radius: 2px;
     transition: all ease 400ms;
     margin-right: 10px;
     padding: 20px;
@@ -256,8 +256,8 @@ body {
 }
 
 #get:hover {
-    background-color: rgb(167, 9, 9);
-    border: 2px solid rgb(167, 9, 9);
+    background-color: mediumpurple;
+    border: 2px solid mediumpurple;
     transition: all ease 360ms;
     border-style: dotted;
 }
@@ -271,11 +271,11 @@ body {
 }
 #read {
     text-decoration: none;
-    background-color: transparent;
+    background-color: white;
     padding: 10px;
-    color: purple;
-    border: 1px solid purple;
-    border-radius: 5px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2px;
     transition: all ease 400ms;
     font-weight: 600;
     width: 100%;
@@ -296,13 +296,13 @@ body {
 }
 
 #read a:hover {
-    color: black;
+    color: white;
 }
 
 #read:hover {
     transition: all ease 360ms;
-    background-color: white;
-    color: black;
+    background-color: transparent;
+    color: white;
 }
 /* endBanner */
 
