@@ -1,6 +1,6 @@
 ---
 layout: get
-title: HydraPWK | Platform
+title: NetHydra | Platform
 permalink: /get/
 comments: true
 ---
